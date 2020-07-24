@@ -97,7 +97,11 @@ Diamo un’occhiata ad un esempio, iniziamo dividendo l’array [31, 4, 88, 1, 4
 2) Divido l’array in 4 parti: [31, 4] [88, 1] [4, 2] [42]
 3) Divido l’array in singoli elementi: [31] [4] [88] [1] [4] [2] [42]
 
-Ora dobbiamo riunirli di nuovo insieme in ordine: innanzitutto uniamo singoli elementi in coppie. Ogni coppia viene unita nell’ordinamento: [4, 31] [1, 88] [2, 4] [42], quindi uniamo le coppie, sempre nell’ordinamento: [1,4,31,88] [2,4,42], e poi uniamo gli ultimi due gruppi: [1,2,4,4,31,42,88].
+Ora dobbiamo riunirli di nuovo insieme ordinandoli:
+
+1) [4, 31] [1, 88] [2, 4] [42]
+2) [1,4,31,88] [2,4,42]
+3) [1,2,4,4,31,42,88].
 
 Ora l’array è ordinato!
 
@@ -109,7 +113,24 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 ## QuickSort
 
+QuickSort è un altro algoritmo della categoria degli algoritmi Divide Et Impera. Funziona abbattendo grossi problemi in problemi più piccoli e più facilmente risolvibili. L’idea di QuickSort è di scegliere un elemento perno (pivot). Le versioni di QuickSort si differenziano per il metodo di pivot picking. Il primo, l’ultimo, il mediano o anche un elemento selezionato casualmente è un candidato da scegliere come perno. La parte principale del processo di ordinamento è il partizionamento.
+Una volta scelto il perno, l’array viene suddiviso in due metà: una metà contenente tutti gli elementi minori del perno e l’altra contenente gli elementi maggiori del perno. Quindi, lo stesso processo si verifica in modo ricorsivo per le restanti metà dell’array, risultando infine in un array ordinato.
 
+Consideriamo il seguente esempio, supponiamo di avere la seguente sequenza [2, 0, 7, 4, 3]:
+
+1) Scegliamo 3 (ultimo elemento in posizione 4) come perno.
+2) Dopo aver fatto 4 confronti otteniamo le due metà: [2,0] (3) [7,4]
+3) Ora, lo stesso processo si ripete per le due metà: scegliamo (0) come perno per la metà inferiore e (4) per la metà maggiore.
+4) Dopo un confronto per ogni metà, otteniamo:
+[(0)[2]] (3) [(4)[7]] quale è una sequenza ordinata.
+
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/5_QuickSort/QuickSort.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/5_QuickSort/QuickSort.py)
+
+### Vantaggi e Svantaggi QuickSort
+
+La scelta del pivot fa una grande differenza, poiché una selezione del pivot non riuscita può ridurre significativamente la velocità dell’algoritmo. Una variante di QuickSort è il QuickSort a 3 vie, che lo rende più conveniente per i dati con elevata ridondanza. La versione casuale di QuickSort è la più efficiente, sceglie il perno in modo casuale, evitando così i casi peggiori per modelli particolari (come array ordinati), sebbene non del tutto.
+
+## Linear Search
 
 # Per maggiori informazioni
 
