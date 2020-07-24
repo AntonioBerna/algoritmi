@@ -202,11 +202,21 @@ Per esempio:
 
 I BST consentono una rapida ricerca (aggiunta e rimozione di elementi) e possono essere utilizzati per implementare array dinamici o tabelle di ricerca che consentono di trovare un elemento tramite la sua chiave (ad esempio, trovare il numero di telefono di una persona con il cognome).
 
-Le operazioni di ricerca, inserimento ed eliminazione sono fondamentali nei BST. Poiché le chiavi sono memorizzate in un ordine particolare, il principio della ricerca binaria può essere utilizzato per la ricerca. Partiamo dalla radice e confrontiamo la chiave. Se la radice ha la chiave, viene restituita come risultato. Se la chiave è maggiore della radice, la sottostruttura destra viene controllata in modo ricorsivo. Se la chiave è inferiore alla radice, la sottostruttura sinistre viene controllata in modo ricorsivo. La ricorsione continua fino a quando non viene trovata la chiave. Le operazioni di inserimento ed eliminazione sono molto simili, poiché entrambe utilizzano la stessa logica di ricerca per individuare il nodo necessario.
+Le operazioni di ricerca, inserimento ed eliminazione sono fondamentali nei BST. Poiché le chiavi sono memorizzate in un ordine particolare, il principio della ricerca binaria può essere utilizzato per la ricerca. Partiamo dalla radice e confrontiamo la chiave. Se la radice ha la chiave, viene restituita come risultato. Se la chiave è maggiore della radice, la sottostruttura destra viene controllata in modo ricorsivo. Se la chiave è inferiore alla radice, la sottostruttura sinistra viene controllata in modo ricorsivo. La ricorsione continua fino a quando non viene trovata la chiave. Le operazioni di inserimento ed eliminazione sono molto simili, poiché entrambe utilizzano la stessa logica di ricerca per individuare il nodo necessario.
 
 Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/9_Binary%20Search%20Tree/Binary%20Search%20Tree.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/9_Binary%20Search%20Tree/Binary%20Search%20Tree.py)
 
 **Bonus: Gli Alberi di Ricerca Binaria sono utilizzati in molte applicazioni di ricerca.**
+
+# Time Complexity
+
+In Informatica, la complessità temporale misura o stima il tempo impiegato per l’esecuzione di un algoritmo e viene stimata contando il numero di operazioni elementari eseguite dall’algoritmo, supponendo che un’operazione elementare richieda una quantità fissa di tempo per essere eseguita. Poiché il tempo di esecuzione di un algoritmo può variare con input diversi della stessa dimensione, si considera comunemente la complessità temporale peggiore espressa usando la notazione Big-O, che è il tempo massimo impiegato sugli input di una data dimensione. Ad esempio, un algoritmo con complessità temporale 𝑂(n) è un algoritmo temporale lineare.
+
+**È comune escludere costanti e coefficienti di ordine inferiore che non hanno un impatto così grande sulla complessità del problema. Ad esempio: 𝑂(2𝑛) e 𝑂(𝑛+5) sono uguali a 𝑂(n).**
+
+## Complessità Temporali Comuni
+
+𝑂(1) → 𝑇𝑒𝑚𝑝𝑜 𝐶𝑜𝑠𝑡𝑎𝑛𝑡𝑒: dato un input di dimensione n, è sufficiente un solo passaggio per eseguire l’algoritmo.
 
 # Per maggiori informazioni
 
