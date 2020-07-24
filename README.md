@@ -228,7 +228,8 @@ arr[3]
 
 ```
 Regola generale n. 1:
-dichiarazioni di ritorno, inizializzazione di una variabile, incremento, assegnazione, ecc. Tutte queste operazioni richiedono tempo O(1).
+dichiarazioni di ritorno, inizializzazione di una variabile, incremento, assegnazione, ecc.
+Tutte queste operazioni richiedono tempo O(1).
 ```
 
 ------
@@ -257,7 +258,8 @@ for(var i = 0; i < n; i++){
 
 ```
 Regola generale n. 2:
-il tempo massimo di esecuzione di un ciclo è il tempo di esecuzione delle istruzioni all’interno del ciclo moltiplicato per il numero di iterazioni.
+il tempo massimo di esecuzione di un ciclo è il tempo di esecuzione delle istruzioni
+all’interno del ciclo moltiplicato per il numero di iterazioni.
 ```
 
 ------
