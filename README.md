@@ -39,6 +39,13 @@ Ora dobbiamo iniziare la seconda iterazione:
 
 La terza iterazione non cambierà alcun elemento, il che significa che l’elenco è ordinato!
 
+Il vantaggio principale di Bubble Sort è la semplicità dell’algoritmo.
+In termini di complessità, Bubble Sort è considerato non ottimale, poiché ha richiesto più iterazioni sull’array.
+
+Nel peggiore dei casi, in cui tutti gli elementi devono essere scambiati, richiederà:
+
+![alt text](http://www.sciweavers.org/tex2img.php?eq=%28n-1%29%20%2B%20%28n-2%29%20%2B%20%28n-3%29%20%2B%20...%20%2B%203%20%2B%202%2B%201%20%3D%20%5Cfrac%7Bn%20%28n-1%29%7D%7B2%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+
 # Per maggiori informazioni
 
 Mini Corso Base Algoritmi di Ordinamento [Youtube]: link...
