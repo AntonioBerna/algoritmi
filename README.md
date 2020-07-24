@@ -137,8 +137,8 @@ La Ricerca Lineare è un algoritmo di ricerca molto semplice. Ogni elemento vien
 Proviamo a cercare di trovare il valore x nell'elenco. L’algoritmo è formato dai seguenti passaggi:
 
 1) Inizia dall'elemento più a sinistra dell'elenco e uno per uno confronta x con ciascun elemento dell'array.
-2) se x corrisponde a un elemento, restituisce l'indice.
-3) se x non corrisponde a nessuno degli elementi, restituisce -1.
+2) Se x corrisponde a un elemento, restituisce l'indice.
+3) Se x non corrisponde a nessuno degli elementi, restituisce -1.
 
 Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/6_Linear%20Search/LinearSearch.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/6_Linear%20Search/LinearSearch.py)
 
@@ -146,8 +146,17 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 ## Binary Search
 
-La ricerca binaria è un algoritmo di ricerca rapida che funziona su elenchi ordinati. Appartiene alla categoria Divide e Conquer, il che significa che scompone grossi problemi in problemi più piccoli e più facilmente risolvibili. L’algoritmo cerca una corrispondenza confrontando l’elemento centrale di un array. Se si verifica una corrispondenza, viene restituito l’indice dell’elemento. Se l’elemento centrale è maggiore dell’elemento da trovare, viene confrontato l’elemento centrale del sotto array a sinistra, altrimenti viene confrontato l’elemento centrale del sotto array a destra. Questo processo si ripete sui sotto array fino a quando la dimensione del sotto array non si riduce a zero. Fondamentalmente, l’elenco è diviso in due metà e la ricerca continua nella metà in cui l’elemento ha la possibilità di essere localizzato. Questo è il motivo per cui l’algoritmo richiede un elenco ordinato.
+La Ricerca Binaria è un algoritmo di ricerca rapida che funziona su elenchi ordinati. Appartiene alla categoria Divide Et Impera, il che significa che scompone grossi problemi in problemi più piccoli e più facilmente risolvibili. L’algoritmo cerca una corrispondenza confrontando l’elemento centrale di un array. Se si verifica una corrispondenza, viene restituito l’indice dell’elemento. Se l’elemento centrale è maggiore dell’elemento da trovare, viene confrontato l’elemento centrale del sotto array a sinistra, altrimenti viene confrontato l’elemento centrale del sotto array a destra. Questo processo si ripete sui sotto array fino a quando la dimensione del sotto array non si riduce a zero. Fondamentalmente, l’array è diviso in due metà e la ricerca continua nella metà in cui l’elemento ha la possibilità di essere localizzato. Questo è il motivo per cui l’algoritmo richiede un elenco ordinato.
 
+Prendiamo un array ordinato di esempio [2,5,16,18,24,42] e cerchiamo l’elemento 24:
+
+1) Prendiamo l’elemento più centrale (18) e lo confrontiamo con 24. Avremmo potuto prendere anche un altro elemento centrale ma di solito si divide per 2 il numero di elementi nell’array e si prende come risultato l’indice dell’elemento centrale.
+2) 18 < 24, quindi dividiamo l’array in due parti e continuiamo a lavorare con il sotto array a destra: [24, 42].
+3) Lo stesso processo si ripete e visto che 42 > 24, consideriamo il sotto array sinistro: [24].
+
+Elemento trovato!
+
+Proviamo a cercare l’elemento 4 dell'array in figura, prendendo come elemento centrale 7: ![](images/2.png)
 
 
 # Per maggiori informazioni
