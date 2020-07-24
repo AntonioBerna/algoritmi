@@ -132,6 +132,20 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 ## Linear Search
 
+La ricerca lineare è un algoritmo di ricerca molto semplice. Ogni elemento viene controllato e se viene trovata una corrispondenza, viene restituito quel particolare elemento, altrimenti la ricerca continua fino alla fine dell'elenco. La ricerca lineare non richiede un elenco ordinato.
+
+Proviamo a cercare di trovare il valore x nell'elenco. L’algoritmo è formato dai seguenti passaggi:
+
+1) Inizia dall'elemento più a sinistra dell'elenco e uno per uno confronta x con ciascun elemento dell'array.
+2) se x corrisponde a un elemento, restituisce l'indice.
+3) se x non corrisponde a nessuno degli elementi, restituisce -1.
+
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/6_Linear%20Search/LinearSearch.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/6_Linear%20Search/LinearSearch.py)
+
+**Bonus: La ricerca lineare viene raramente utilizzata perché altri algoritmi di ricerca, come l'algoritmo di ricerca binaria, consentono confronti di ricerca significativamente più veloci.**
+
+## Binary Search
+
 # Per maggiori informazioni
 
 Mini Corso Base Algoritmi di Ordinamento [Youtube]: https://www.youtube.com/watch?v=KhsCEVO1zhk&t=23s
