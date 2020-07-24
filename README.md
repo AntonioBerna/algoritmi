@@ -210,13 +210,21 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 # Time Complexity
 
-In Informatica, la complessità temporale misura o stima il tempo impiegato per l’esecuzione di un algoritmo e viene stimata contando il numero di operazioni elementari eseguite dall’algoritmo, supponendo che un’operazione elementare richieda una quantità fissa di tempo per essere eseguita. Poiché il tempo di esecuzione di un algoritmo può variare con input diversi della stessa dimensione, si considera comunemente la complessità temporale peggiore espressa usando la notazione Big-O, che è il tempo massimo impiegato sugli input di una data dimensione. Ad esempio, un algoritmo con complessità temporale 𝑂(n) è un algoritmo temporale lineare.
+In Informatica, la complessità temporale misura o stima il tempo impiegato per l’esecuzione di un algoritmo e viene stimata contando il numero di operazioni elementari eseguite dall’algoritmo, supponendo che un’operazione elementare richieda una quantità fissa di tempo per essere eseguita. Poiché il tempo di esecuzione di un algoritmo può variare con input diversi della stessa dimensione, si considera comunemente la complessità temporale peggiore espressa usando la notazione Big-O, che è il tempo massimo impiegato sugli input di una data dimensione. Ad esempio, un algoritmo con complessità temporale O(n) è un algoritmo temporale lineare.
 
-**È comune escludere costanti e coefficienti di ordine inferiore che non hanno un impatto così grande sulla complessità del problema. Ad esempio: 𝑂(2𝑛) e 𝑂(𝑛+5) sono uguali a 𝑂(n).**
+**È comune escludere costanti e coefficienti di ordine inferiore che non hanno un impatto così grande sulla complessità del problema. Ad esempio: O(2n) e O(n+5) sono uguali a O(n).**
 
 ## Complessità Temporali Comuni
 
-𝑂(1) → 𝑇𝑒𝑚𝑝𝑜 𝐶𝑜𝑠𝑡𝑎𝑛𝑡𝑒: dato un input di dimensione n, è sufficiente un solo passaggio per eseguire l’algoritmo.
+**O(1) → Tempo Costante: dato un input di dimensione n, è sufficiente un solo passaggio per eseguire l’algoritmo.**
+
+Pseudocodice:
+```
+var arr = [1, 2, 3, 4]
+arr[3]
+```
+
+**Regola generale n. 1: dichiarazioni di ritorno, inizializzazione di una variabile, incremento, assegnazione, ecc. Tutte queste operazioni richiedono tempo O(1).**
 
 # Per maggiori informazioni
 
