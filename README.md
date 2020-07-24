@@ -1,2 +1,2 @@
-# Algoritmi
-Algoritmi di Ordinamento e di Ricerca
+# Algoritmi di Ordinamento e di Ricerca
+
