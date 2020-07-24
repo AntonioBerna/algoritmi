@@ -146,7 +146,7 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 ## Binary Search
 
-La Ricerca Binaria è un algoritmo di ricerca rapida che funziona su elenchi ordinati. Appartiene alla categoria Divide Et Impera, il che significa che scompone grossi problemi in problemi più piccoli e più facilmente risolvibili. L’algoritmo cerca una corrispondenza confrontando l’elemento centrale di un array. Se si verifica una corrispondenza, viene restituito l’indice dell’elemento. Se l’elemento centrale è maggiore dell’elemento da trovare, viene confrontato l’elemento centrale del sotto array a sinistra, altrimenti viene confrontato l’elemento centrale del sotto array a destra. Questo processo si ripete sui sotto array fino a quando la dimensione del sotto array non si riduce a zero. Fondamentalmente, l’array è diviso in due metà e la ricerca continua nella metà in cui l’elemento ha la possibilità di essere localizzato. Questo è il motivo per cui l’algoritmo richiede un elenco ordinato.
+La Ricerca Binaria è un algoritmo di ricerca rapida che funziona su elenchi ordinati. Appartiene alla categoria **Divide Et Impera**, il che significa che scompone grossi problemi in problemi più piccoli e più facilmente risolvibili. L’algoritmo cerca una corrispondenza confrontando l’elemento centrale di un array. Se si verifica una corrispondenza, viene restituito l’indice dell’elemento. Se l’elemento centrale è maggiore dell’elemento da trovare, viene confrontato l’elemento centrale del sotto array a sinistra, altrimenti viene confrontato l’elemento centrale del sotto array a destra. Questo processo si ripete sui sotto array fino a quando la dimensione del sotto array non si riduce a zero. Fondamentalmente, l’array è diviso in due metà e la ricerca continua nella metà in cui l’elemento ha la possibilità di essere localizzato. Questo è il motivo per cui l’algoritmo richiede un elenco ordinato.
 
 Prendiamo un array ordinato di esempio [2,5,16,18,24,42] e cerchiamo l’elemento 24:
 
@@ -168,11 +168,11 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 Questo algoritmo di ricerca è appositamente progettato per grafici (graphs) e alberi (trees). Un grafico è un insieme di nodi collegati. Ogni nodo è chiamato vertice (vertex) e la connessione tra due di essi è chiamata bordo (edge). Mentre un albero (trees) è un grafico aciclico cioè un grafico non orientato, in cui due vertici sono collegati esattamente da un percorso.
 
-La ricerca approfondita (DFS) è un algoritmo di ricerca ricorsiva che utilizza il backtracking, cioè, inizia dalla radice dell’albero (nodo arbitrario nel caso del grafico) ed esplora il più possibile fino a quando tutti i nodi vengono visitati. **La parola backtrack significa che quando ci si sposta in avanti e non ci sono più nodi lungo il percorso, ci si sposta indietro sullo stesso percorso per trovare nodi da attraversare.**
+La Ricerca Approfondita (DFS) è un algoritmo di ricerca ricorsiva che utilizza il **backtracking**, cioè, inizia dalla radice dell’albero (nodo arbitrario nel caso del grafico) ed esplora il più possibile fino a quando tutti i nodi vengono visitati. **La parola backtrack significa che quando ci si sposta in avanti e non ci sono più nodi lungo il percorso, ci si sposta indietro sullo stesso percorso per trovare nodi da attraversare.**
 
 Esempio: eseguiamo l’algoritmo sul grafico in basso e vediamo in quale ordine verranno visitati i nodi e inoltre supponiamo che l’algoritmo scelga i bordi a sinistra prima di quelli a destra:
 
-![](images/3.png)
+![](images/4.jpg)
 
 1) Visitare il nodo A. Continuare sul nodo sinistro.
 2) Visitare il nodo B. Continuare sul nodo sinistro.
