@@ -210,13 +210,13 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 # Time Complexity
 
-In Informatica, la complessità temporale misura o stima il tempo impiegato per l’esecuzione di un algoritmo e viene stimata contando il numero di operazioni elementari eseguite dall’algoritmo, supponendo che un’operazione elementare richieda una quantità fissa di tempo per essere eseguita. Poiché il tempo di esecuzione di un algoritmo può variare con input diversi della stessa dimensione, si considera comunemente la complessità temporale peggiore espressa usando la notazione Big-O, che è il tempo massimo impiegato sugli input di una data dimensione. Ad esempio, un algoritmo con complessità temporale O(n) è un algoritmo temporale lineare.
+In Informatica, la Complessità Temporale misura o stima il tempo impiegato per l’esecuzione di un algoritmo e viene stimata contando il numero di operazioni elementari eseguite dall’algoritmo, supponendo che un’operazione elementare richieda una quantità fissa di tempo per essere eseguita. Poiché il tempo di esecuzione di un algoritmo può variare con input diversi della stessa dimensione, si considera comunemente la Complessità Temporale peggiore espressa usando la notazione **Big-O**, che è il tempo massimo impiegato sugli input di una data dimensione. Ad esempio, un algoritmo con complessità temporale **O(n)** è un algoritmo temporale lineare.
 
 **È comune escludere costanti e coefficienti di ordine inferiore che non hanno un impatto così grande sulla complessità del problema. Ad esempio: O(2n) e O(n+5) sono uguali a O(n).**
 
 ## Complessità Temporali Comuni
 
-**O(1) → Tempo Costante: dato un input di dimensione n, è sufficiente un solo passaggio per eseguire l’algoritmo.**
+1) **O(1) → Tempo Costante: dato un input di dimensione n, è sufficiente un solo passaggio per eseguire l’algoritmo.**
 
 Pseudocodice:
 ```
@@ -225,6 +225,73 @@ arr[3]
 ```
 
 **Regola generale n. 1: dichiarazioni di ritorno, inizializzazione di una variabile, incremento, assegnazione, ecc. Tutte queste operazioni richiedono tempo O(1).**
+
+2) **O(log(n)) → Tempo Logaritmico: il numero di passaggi necessari per eseguire l’attività viene ridotto di un fattore ad ogni passaggio. L’algoritmo di Ricerca Binaria è un esempio.**
+
+Pseudocodice:
+```
+for(var i = 1; i < n; i *= 2){
+  ...
+}
+```
+
+3) **O(n) → Tempo Lineare: il tempo di esecuzione aumenta al massimo in modo lineare con la dimensione dell’input.**
+
+Pseudocodice:
+```
+for(var i = 0; i < n; i++){
+  ...
+}
+```
+
+**Regola generale n. 2: il tempo massimo di esecuzione di un ciclo è il tempo di esecuzione delle istruzioni all’interno del ciclo moltiplicato per il numero di iterazioni.**
+
+4) **O(nlog(n)) → Tempo Quasilineare: in molti casi, il tempo di esecuzione nlog(n) è semplicemente il risultato di un’operazione O(log(n)) per n volte. Ad esempio, l’ordinamento dell’Albero Binario crea un nuovo Albero Binario inserendo ogni elemento dell’array di dimensioni n uno per uno. Inoltre, il Quicksort e il Merge Sort vengono eseguiti nel tempo O(nlog(n)).**
+
+Pseudocodice:
+```
+for(var i = 0; i < n; i++){
+  for(var j = n; j > 0; j /= 2){
+    ...
+  }
+}
+```
+
+5) **O(n^2) → Tempo Quadratico: un Algoritmo di Ordinamento comune come il Bubble Sort, il Selection Sort e l'Insertion Sort viene eseguito in O(n^2).**
+
+Pseudocodice:
+```
+for(var i = 0; i < n; i++){
+  for(var j = 0; j < n; j++){
+    ...
+  }
+}
+```
+
+**Regola generale n. 3: il tempo di esecuzione totale dei loop nidificati, è il tempo di esecuzione del loop esterno moltiplicato per i loop interni.**
+
+6) **O(2^n) → Tempo Esponenziale: questo è comune nelle situazioni in cui si attraversano tutti i nodi di un Albero Binario.**
+
+Pseudocodice:
+```
+function fib(n){
+  if(n <= 1){
+    return n;
+  }
+  return fib(n-2) + fib(n-1);
+}
+```
+
+7) **O(n!) → Tempo Fattoriale: questo è comune nel generare permutazioni.**
+
+Pseudocodice:
+```
+function fact(n){
+  for(var i = 0; i < n; i++){
+    fact(n-1);
+  }
+}
+```
 
 # Per maggiori informazioni
 
