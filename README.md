@@ -22,11 +22,22 @@ Prima di buttarsi sull’algoritmo che preferiamo o che conosciamo meglio vale l
 Bubble Sort è un algoritmo utilizzato per ordinare una lista di elementi, ad esempio elementi in un array.
 L’algoritmo confronta due elementi adiacenti e quindi li scambia se non sono in ordine.
 Il processo viene ripetuto fino a quando non è necessario più lo scambio.
+
 Per esempio, consideriamo il seguente array [3,1,5,2]:
 
+1) [1,3,5,2], i primi due elementi vengono confrontati e scambiati.
+2) [1,3,5,2], la coppia successiva viene confrontata e non scambiata, poiché sono in ordine.
+3) [1,3,2,5], gli ultimi due elementi vengono scambiati.
 
+Questa è stata la prima iterazione sull’array.
 
+Ora dobbiamo iniziare la seconda iterazione:
 
+1) [1,3,2,5]
+2) [1,2,3,5]
+3) [1,2,3,5]
+
+La terza iterazione non cambierà alcun elemento, il che significa che l’elenco è ordinato!
 
 # Per maggiori informazioni
 
