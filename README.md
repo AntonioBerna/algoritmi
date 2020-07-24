@@ -292,7 +292,8 @@ for(var i = 0; i < n; i++){
 
 ```
 Regola generale n. 3:
-il tempo di esecuzione totale dei loop nidificati, è il tempo di esecuzione del loop esterno moltiplicato per i loop interni.
+il tempo di esecuzione totale dei loop nidificati, è il tempo di esecuzione
+del loop esterno moltiplicato per i loop interni.
 ```
 
 ------
