@@ -2,7 +2,23 @@ Algoritmi di Ordinamento e di Ricerca
 =====================================
 
 - [Algoritmi di Ordinamento e di Ricerca](#algoritmi-di-ordinamento-e-di-ricerca)
+- [Introduzione](#introduzione)
+- [Bubble Sort](#bubble-sort)
+- [Selection Sort](#selection-sort)
+- [Insertion Sort](#insertion-sort)
+- [Merge Sort](#merge-sort)
+- [QuickSort](#quicksort)
+  - [Vantaggi e Svantaggi del QuickSort](#vantaggi-e-svantaggi-del-quicksort)
+- [Linear Search](#linear-search)
+- [Binary Search](#binary-search)
+- [Depth-First Search (Ricerca Approfondita)](#depth-first-search-(ricerca-approfondita))
+- [Binary Search Tree](#binary-search-tree)
+- [Time Complexity](#time-complexity)
+  - [Complessità Temporali Comuni](#complessità-temporali-comuni)
+- [Per maggiori informazioni](#per-maggiori-informazioni)
 
+
+## Introduzione
 
 Tutti gli algoritmi di ordinamento condividono l’obiettivo di generare un array ordinato, ma il modo in cui ciascun algoritmo svolge questa attività può variare.
 Quando si lavora con qualsiasi tipo di algoritmo, è importante sapere quanto è veloce e in quanto spazio opera.
