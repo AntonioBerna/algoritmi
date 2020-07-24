@@ -168,11 +168,29 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 Questo algoritmo di ricerca è appositamente progettato per grafici (graphs) e alberi (trees). Un grafico è un insieme di nodi collegati. Ogni nodo è chiamato vertice (vertex) e la connessione tra due di essi è chiamata bordo (edge). Mentre un albero (trees) è un grafico aciclico cioè un grafico non orientato, in cui due vertici sono collegati esattamente da un percorso.
 
-La ricerca approfondita (DFS) è un algoritmo di ricerca ricorsiva ce utilizza il backtracking. Inizia dalla radice dell’albero (nodo arbitrario nel caso del grafico) ed esplora il più possibile fino a quando tutti i nodi vengono visitati. La parola backtrack significa che quando ci si sposta in avanti e non ci sono più nodi lungo il percorso, ci si sposta indietro sullo stesso percorso per trovare nodi da attraversare.
+La ricerca approfondita (DFS) è un algoritmo di ricerca ricorsiva che utilizza il backtracking, cioè, inizia dalla radice dell’albero (nodo arbitrario nel caso del grafico) ed esplora il più possibile fino a quando tutti i nodi vengono visitati. **La parola backtrack significa che quando ci si sposta in avanti e non ci sono più nodi lungo il percorso, ci si sposta indietro sullo stesso percorso per trovare nodi da attraversare.**
 
-Esempio: eseguiamo l’algoritmo sul grafico di lato e vediamo in quale ordine verranno visitati i nodi e inoltre supponiamo che l’algoritmo scelga i bordi a sinistra prima di quelli a destra:
+Esempio: eseguiamo l’algoritmo sul grafico in basso e vediamo in quale ordine verranno visitati i nodi e inoltre supponiamo che l’algoritmo scelga i bordi a sinistra prima di quelli a destra:
 
 ![](images/3.png)
+
+1) Visitare il nodo A. Continuare sul nodo sinistro.
+2) Visitare il nodo B. Continuare sul nodo sinistro.
+3) Visitare il nodo D. Non ci sono più nodi disponibili nel percorso, torna al nodo B.
+4) Visitare il nodo F. Continuare con il nodo disponibile nel percorso.
+5) Visitare il nodo E. Il nodo A è già stato visitato.
+6) Tornare al nodo A. Visitare il nodo C. Continuare con il nodo disponibile nel percorso.
+7) Visitare il nodo G. Tutti i nodi sono stati visitati
+
+Quindi, ricordando i nodi visitati l’ordine sarà: A, B, D, F, E, C, G.
+
+Senza ricordare i nodi visitati: A, B, D, F, E (il percorso si ripeterà di nuovo) e non raggiugerà mai i nodi C e G.
+
+Se rimuoviamo il bordo tra i nodi F ed E, otterremo un albero (trees) e l’ordine dei nodi visitati sarà: A, B, D, F, C, G, E.
+
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/8_Depth-First%20Search/Depth-Fisrt%20Search.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/8_Depth-First%20Search/Depth-Fisrt%20Search.py)
+
+**Bonus: Il DFS viene solitamente implementato utilizzando uno Stack (cioè una Struttura Dati) o un array / matrice di adiacenza.**
 
 # Per maggiori informazioni
 
