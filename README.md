@@ -89,6 +89,25 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 ## Merge Sort
 
+Il Merge Sort appartiene alla categoria degli algoritmi Divide Et Impera. Questi algoritmi funzionano suddividendo grossi problemi in più piccoli e più facilmente risolvibili. L’idea dell’algoritmo di tipo Merge è di dividere l’array a metà più e più volte fino a quando ogni pezzo è lungo solo un oggetto. Quindi quegli elementi vengono rimessi insieme (uniti) nell’ordinamento.
+
+Diamo un’occhiata ad un esempio, iniziamo dividendo l’array [31, 4, 88, 1, 4, 2, 42]:
+
+1) Divido l’array in 2 parti: [31, 4, 88, 1] [4, 2, 42]
+2) Divido l’array in 4 parti: [31, 4] [88, 1] [4, 2] [42]
+3) Divido l’array in singoli elementi: [31] [4] [88] [1] [4] [2] [42]
+
+Ora dobbiamo riunirli di nuovo insieme in ordine: innanzitutto uniamo singoli elementi in coppie. Ogni coppia viene unita nell’ordinamento: [4, 31] [1, 88] [2, 4] [42], quindi uniamo le coppie, sempre nell’ordinamento: [1,4,31,88] [2,4,42], e poi uniamo gli ultimi due gruppi: [1,2,4,4,31,42,88].
+
+Ora l’array è ordinato!
+
+**L’idea alla base dell’algoritmo è che le parti più piccole sono più facili da ordinare. L’operazione di unione è la parte più importante dell’algoritmo.**
+
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/4_Merge%20Sort/Merge%20Sort.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/4_Merge%20Sort/Merge%20Sort.py)
+
+**Bonus: Il Merge Sort è utile per ordinare gli elenchi collegati, poiché le operazioni di unione possono essere implementate senza spazio aggiuntivo per gli elenchi collegati.**
+
+## QuickSort
 
 
 
