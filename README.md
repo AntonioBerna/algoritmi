@@ -128,7 +128,7 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 ### Vantaggi e Svantaggi del QuickSort
 
-***La scelta del pivot (perno) fa una grande differenza, poiché una selezione del pivot non riuscita può ridurre significativamente la velocità dell’algoritmo. Una variante di QuickSort è il QuickSort a 3 vie, che lo rende più conveniente per i dati con elevata ridondanza. Invece, la versione casuale del QuickSort è la più efficiente: si sceglie il perno in modo casuale, evitando così i casi peggiori per modelli particolari (come array ordinati), sebbene non del tutto.***
+***La scelta del pivot (perno) fa una grande differenza, poiché una selezione del pivot non riuscita può ridurre significativamente la velocità dell’algoritmo. Una variante di QuickSort è il QuickSort a 3 vie, che lo rende più conveniente per i dati con elevata ridondanza. Invece, la versione casuale del QuickSort è la più efficiente: si sceglie il perno in modo casuale, evitando così i casi peggiori per modelli particolari (come array già ordinati), sebbene non del tutto.***
 
 ## Linear Search
 
