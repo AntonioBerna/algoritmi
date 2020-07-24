@@ -49,10 +49,22 @@ Nel peggiore dei casi, in cui tutti gli elementi devono essere scambiati, richie
 
 scambi (n è il numero di elementi).
 
-Implementazione: ![C++](https://github.com/AntonioBerna/Algoritmi/tree/master/C%2B%2B), ![Python](https://github.com/AntonioBerna/Algoritmi/tree/master/Python)
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/tree/master/C%2B%2B), [Python](https://github.com/AntonioBerna/Algoritmi/tree/master/Python)
+
+**Bonus: L’algoritmo si chiama Bubble Sort, perché ad ogni iterazione l’elemento più piccolo dell’elenco si sposta verso l’alto, proprio come una bolla sale sulla superficie dell'acqua.**
+
+## Selection Sort
+
+Selection Sort è un semplice algoritmo che trova l’elemento più piccolo nell’array e lo scambia con l’elemento nella prima posizione, quindi trova il secondo elemento più piccolo e lo scambia con l’elemento nella seconda posizione, e continua in questo modo fino a quando l’intero array è ordinato.
+
+Per esempio, consideriamo il seguente array [3,1,5,2]:
+
+1) L’elemento più piccolo è 1. Lo scambiamo con il primo elemento. Risultato: [1,3,5,2]
+2) Il secondo più piccolo viene scambiato con il secondo elemento. Risultato: [1,2,5,3]
+3) Il terzo più piccolo viene scambiato con il terzo elemento. Risultato: [1,2,3,5]
 
 # Per maggiori informazioni
 
-Mini Corso Base Algoritmi di Ordinamento [Youtube]: link...
+Mini Corso Base Algoritmi di Ordinamento [Youtube]: https://www.youtube.com/watch?v=KhsCEVO1zhk&t=23s
 
 Created By Antonio Bernardini Copyright© 2020
