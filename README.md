@@ -15,6 +15,7 @@ Ecco alcuni algoritmi di ordinamento noti:
 Quando si sceglie un algoritmo di ordinamento, è necessario considerare la quantità di dati che si sta ordinando e il tempo necessario per implementare l’algoritmo.
 Ad esempio, QuickSort è molto efficiente, ma può essere piuttosto complicato da implementare, mentre, Bubble Sort è semplice da implementare, ma è lento.
 Per ordinare piccoli set di dati, Bubble Sort potrebbe essere un’opzione migliore poiché può essere implementata rapidamente, ma per set di dati più grandi, la velocità di QuickSort potrebbe valere la pena di implementare l’algoritmo seppur complesso.
+
 Prima di buttarsi sull’algoritmo che preferiamo o che conosciamo meglio vale la pena valutare tutti gli algoritmi per determinare la soluzione migliore.
 
 ## Bubble Sort
@@ -45,6 +46,10 @@ In termini di complessità, Bubble Sort è considerato non ottimale, poiché ha 
 Nel peggiore dei casi, in cui tutti gli elementi devono essere scambiati, richiederà:
 
 ![](images/1.jpg)
+
+scambi (𝑛 è il numero di elementi).
+
+Implementazione: ![C++](https://github.com/AntonioBerna/Algoritmi/tree/master/C%2B%2B), ![Python](https://github.com/AntonioBerna/Algoritmi/tree/master/Python)
 
 # Per maggiori informazioni
 
