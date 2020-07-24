@@ -17,6 +17,17 @@ Ad esempio, QuickSort è molto efficiente, ma può essere piuttosto complicato d
 Per ordinare piccoli set di dati, Bubble Sort potrebbe essere un’opzione migliore poiché può essere implementata rapidamente, ma per set di dati più grandi, la velocità di QuickSort potrebbe valere la pena di implementare l’algoritmo seppur complesso.
 Prima di buttarsi sull’algoritmo che preferiamo o che conosciamo meglio vale la pena valutare tutti gli algoritmi per determinare la soluzione migliore.
 
+## Bubble Sort
+
+Bubble Sort è un algoritmo utilizzato per ordinare una lista di elementi, ad esempio elementi in un array.
+L’algoritmo confronta due elementi adiacenti e quindi li scambia se non sono in ordine.
+Il processo viene ripetuto fino a quando non è necessario più lo scambio.
+Per esempio, consideriamo il seguente array [3,1,5,2]:
+
+
+
+
+
 # Per maggiori informazioni
 
 Mini Corso Base Algoritmi di Ordinamento [Youtube]: link...
