@@ -158,7 +158,14 @@ Elemento trovato!
 
 Proviamo a cercare l’elemento 4 nell'array in figura, prendendo come elemento centrale 7:
 
-![](https://upload.wikimedia.org/wikipedia/commons/6/64/Binary_search_into_array_-_example.svg=200x200)
+![](images/2.png)
+
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/7_Binary%20Search/BinarySearch.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/7_Binary%20Search/BinarySearch.py)
+
+**Bonus: Si chiama Ricerca Binaria perché divide continuamente l’array in due parti, con il risultato della parte sinistra o destra.**
+
+## Depth-First Search (Ricerca Approfondita)
+
 
 
 # Per maggiori informazioni
