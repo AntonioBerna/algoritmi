@@ -227,7 +227,8 @@ arr[3]
 ------
 
 ```
-**Regola generale n. 1: dichiarazioni di ritorno, inizializzazione di una variabile, incremento, assegnazione, ecc. Tutte queste operazioni richiedono tempo O(1).**
+Regola generale n. 1:
+dichiarazioni di ritorno, inizializzazione di una variabile, incremento, assegnazione, ecc. Tutte queste operazioni richiedono tempo O(1).
 ```
 
 ------
@@ -243,7 +244,7 @@ for(var i = 1; i < n; i *= 2){
 
 ------
 
-3) **O(n) → Tempo Lineare: il tempo di esecuzione aumenta al massimo in modo lineare con la dimensione dell’input.**
+**O(n) → Tempo Lineare: il tempo di esecuzione aumenta al massimo in modo lineare con la dimensione dell’input.**
 
 Pseudocodice:
 ```
@@ -255,7 +256,8 @@ for(var i = 0; i < n; i++){
 ------
 
 ```
-**Regola generale n. 2: il tempo massimo di esecuzione di un ciclo è il tempo di esecuzione delle istruzioni all’interno del ciclo moltiplicato per il numero di iterazioni.**
+Regola generale n. 2:
+il tempo massimo di esecuzione di un ciclo è il tempo di esecuzione delle istruzioni all’interno del ciclo moltiplicato per il numero di iterazioni.
 ```
 
 ------
@@ -287,7 +289,8 @@ for(var i = 0; i < n; i++){
 ------
 
 ```
-**Regola generale n. 3: il tempo di esecuzione totale dei loop nidificati, è il tempo di esecuzione del loop esterno moltiplicato per i loop interni.**
+Regola generale n. 3:
+il tempo di esecuzione totale dei loop nidificati, è il tempo di esecuzione del loop esterno moltiplicato per i loop interni.
 ```
 
 ------
