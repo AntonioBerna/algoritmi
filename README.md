@@ -69,6 +69,24 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/tree/master/C%2
 
 **Bonus: L'algoritmo è efficiente per gli array di piccole dimensioni, ma molto inefficiente per quelli di grandi dimensioni.**
 
+## Insertion Sort
+
+Insertion Sort è un semplice algoritmo che funziona nello stesso modo in cui vengono ordinate le carte da gioco nelle nostre mani. Ordiniamo le prime due carte e quindi posizioniamo la terza carta nella posizione appropriata all’interno delle prime due, quindi la quarta viene posizionata tra le prime tre e così via fino a quando l’intera mano non viene ordinata. Durante un’iterazione, un elemento dell’elenco viene inserito nella parte ordinata dell’array alla sua sinistra. Quindi, sostanzialmente, per ogni iterazione, abbiamo un array di elementi ordinati a sinistra e un array di elementi ancora da ordinare a destra.
+
+Sembra confuso?
+
+Diamo un’occhiata ad un esempio per capire meglio l’algoritmo. Consideriamo il seguente array [3,1,5,2]:
+
+1) Iniziamo con il secondo elemento (1) e lo posizioniamo correttamente "nell’array" dei primi due elementi. Risultato: [1,3,5,2], ora abbiamo un array ordinato a sinistra ([1,3]) e gli altri elementi a destra.
+2) L’elemento successivo è 5. Inserendolo nell’array a sinistra si ottiene: [1,3,5,2].
+3) L’ultimo elemento (2) viene inserito nella posizione corrispondente, risultando in: [1,2,3,5].
+
+Ora l’array è ordinato!
+
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/tree/master/C++/3_Insertion%20Sort), [Python](https://github.com/AntonioBerna/Algoritmi/tree/master/Python/3_Insertion%20Sort)
+
+**Bonus: L'algoritmo è efficiente per gli array di piccole dimensioni, ma molto inefficiente per quelli di grandi dimensioni.**
+
 # Per maggiori informazioni
 
 Mini Corso Base Algoritmi di Ordinamento [Youtube]: https://www.youtube.com/watch?v=KhsCEVO1zhk&t=23s
