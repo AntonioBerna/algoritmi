@@ -47,7 +47,7 @@ Nel peggiore dei casi, in cui tutti gli elementi devono essere scambiati, richie
 
 ![](images/1.jpg)
 
-scambi (𝑛 è il numero di elementi).
+scambi (n è il numero di elementi).
 
 Implementazione: ![C++](https://github.com/AntonioBerna/Algoritmi/tree/master/C%2B%2B), ![Python](https://github.com/AntonioBerna/Algoritmi/tree/master/Python)
 
