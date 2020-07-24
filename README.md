@@ -49,7 +49,7 @@ Nel peggiore dei casi, in cui tutti gli elementi devono essere scambiati, richie
 
 scambi (n è il numero di elementi).
 
-Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/tree/master/C%2B%2B), [Python](https://github.com/AntonioBerna/Algoritmi/tree/master/Python)
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/tree/master/C%2B%2B/1_Bubble%20Sort), [Python](https://github.com/AntonioBerna/Algoritmi/tree/master/Python/1_Bubble%20Sort)
 
 **Bonus: L’algoritmo si chiama Bubble Sort, perché ad ogni iterazione l’elemento più piccolo dell’elenco si sposta verso l’alto, proprio come una bolla sale sulla superficie dell'acqua.**
 
@@ -62,6 +62,12 @@ Per esempio, consideriamo il seguente array [3,1,5,2]:
 1) L’elemento più piccolo è 1. Lo scambiamo con il primo elemento. Risultato: [1,3,5,2]
 2) Il secondo più piccolo viene scambiato con il secondo elemento. Risultato: [1,2,5,3]
 3) Il terzo più piccolo viene scambiato con il terzo elemento. Risultato: [1,2,3,5]
+
+L’array è ordinato!
+
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/tree/master/C%2B%2B/2_Selection%20Sort), [Python](https://github.com/AntonioBerna/Algoritmi/tree/master/Python/2_Selection%20Sort)
+
+**Bonus: L'algoritmo è efficiente per gli array di piccole dimensioni, ma molto inefficiente per quelli di grandi dimensioni.**
 
 # Per maggiori informazioni
 
