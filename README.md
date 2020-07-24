@@ -110,7 +110,7 @@ Ora l’array è ordinato!
 
 Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/4_Merge%20Sort/Merge%20Sort.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/4_Merge%20Sort/Merge%20Sort.py)
 
-**Bonus: Il Merge Sort è utile per ordinare i linked lists (cioè una Struttura Dati), poiché le operazioni di unione possono essere implementate senza spazio aggiuntivo.**
+**Bonus: Il Merge Sort è utile per ordinare i Linked Lists (cioè una Struttura Dati), poiché le operazioni di unione possono essere implementate senza spazio aggiuntivo.**
 
 ## QuickSort
 
@@ -132,7 +132,7 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 ## Linear Search
 
-La ricerca lineare è un algoritmo di ricerca molto semplice. Ogni elemento viene controllato e se viene trovata una corrispondenza, viene restituito quel particolare elemento, altrimenti la ricerca continua fino alla fine dell'elenco. La ricerca lineare non richiede un elenco ordinato.
+La Ricerca Lineare è un algoritmo di ricerca molto semplice. Ogni elemento viene controllato e se viene trovata una corrispondenza, viene restituito quel particolare elemento, altrimenti la ricerca continua fino alla fine dell'elenco. La Ricerca Lineare non richiede un elenco ordinato.
 
 Proviamo a cercare di trovare il valore x nell'elenco. L’algoritmo è formato dai seguenti passaggi:
 
@@ -142,7 +142,7 @@ Proviamo a cercare di trovare il valore x nell'elenco. L’algoritmo è formato 
 
 Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/6_Linear%20Search/LinearSearch.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/6_Linear%20Search/LinearSearch.py)
 
-**Bonus: La ricerca lineare viene raramente utilizzata perché altri algoritmi di ricerca, come l'algoritmo di ricerca binaria, consentono confronti di ricerca significativamente più veloci.**
+**Bonus: La Ricerca Lineare viene raramente utilizzata perché altri algoritmi di ricerca, come l'algoritmo di Ricerca Binaria, consentono confronti di ricerca significativamente più veloci.**
 
 ## Binary Search
 
