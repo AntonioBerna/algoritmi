@@ -49,7 +49,7 @@ Nel peggiore dei casi, in cui tutti gli elementi devono essere scambiati, richie
 
 scambi (n è il numero di elementi).
 
-Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/tree/master/C%2B%2B/1_Bubble%20Sort), [Python](https://github.com/AntonioBerna/Algoritmi/tree/master/Python/1_Bubble%20Sort)
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/1_Bubble%20Sort/Bubble%20Sort.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/1_Bubble%20Sort/Bubble%20Sort.py)
 
 **Bonus: L’algoritmo si chiama Bubble Sort, perché ad ogni iterazione l’elemento più piccolo dell’elenco si sposta verso l’alto, proprio come una bolla sale sulla superficie dell'acqua.**
 
@@ -65,7 +65,7 @@ Per esempio, consideriamo il seguente array [3,1,5,2]:
 
 L’array è ordinato!
 
-Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/tree/master/C%2B%2B/2_Selection%20Sort), [Python](https://github.com/AntonioBerna/Algoritmi/tree/master/Python/2_Selection%20Sort)
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/2_Selection%20Sort/Selection%20Sort.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/2_Selection%20Sort/Selection%20Sort.py)
 
 **Bonus: L'algoritmo è efficiente per gli array di piccole dimensioni, ma molto inefficiente per quelli di grandi dimensioni.**
 
@@ -83,9 +83,14 @@ Diamo un’occhiata ad un esempio per capire meglio l’algoritmo. Consideriamo 
 
 Ora l’array è ordinato!
 
-Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/tree/master/C++/3_Insertion%20Sort), [Python](https://github.com/AntonioBerna/Algoritmi/tree/master/Python/3_Insertion%20Sort)
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/3_Insertion%20Sort/Insertion%20Sort.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/3_Insertion%20Sort/Insertion%20Sort.py)
 
 **Bonus: L'algoritmo è efficiente per gli array di piccole dimensioni, ma molto inefficiente per quelli di grandi dimensioni.**
+
+## Merge Sort
+
+
+
 
 # Per maggiori informazioni
 
