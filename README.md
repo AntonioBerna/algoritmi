@@ -156,7 +156,9 @@ Prendiamo un array ordinato di esempio [2,5,16,18,24,42] e cerchiamo l’element
 
 Elemento trovato!
 
-Proviamo a cercare l’elemento 4 dell'array in figura, prendendo come elemento centrale 7: ![](images/2.png)
+Proviamo a cercare l’elemento 4 nell'array in figura, prendendo come elemento centrale 7:
+
+![](images/2.png =200x200)
 
 
 # Per maggiori informazioni
