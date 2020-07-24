@@ -216,7 +216,7 @@ In Informatica, la Complessità Temporale misura o stima il tempo impiegato per 
 
 ## Complessità Temporali Comuni
 
-1) **O(1) → Tempo Costante: dato un input di dimensione n, è sufficiente un solo passaggio per eseguire l’algoritmo.**
+**O(1) → Tempo Costante: dato un input di dimensione n, è sufficiente un solo passaggio per eseguire l’algoritmo.**
 
 Pseudocodice:
 ```
@@ -224,9 +224,15 @@ var arr = [1, 2, 3, 4]
 arr[3]
 ```
 
-**Regola generale n. 1: dichiarazioni di ritorno, inizializzazione di una variabile, incremento, assegnazione, ecc. Tutte queste operazioni richiedono tempo O(1).**
+------
 
-2) **O(log(n)) → Tempo Logaritmico: il numero di passaggi necessari per eseguire l’attività viene ridotto di un fattore ad ogni passaggio. L’algoritmo di Ricerca Binaria è un esempio.**
+```
+**Regola generale n. 1: dichiarazioni di ritorno, inizializzazione di una variabile, incremento, assegnazione, ecc. Tutte queste operazioni richiedono tempo O(1).**
+```
+
+------
+
+**O(log(n)) → Tempo Logaritmico: il numero di passaggi necessari per eseguire l’attività viene ridotto di un fattore ad ogni passaggio. L’algoritmo di Ricerca Binaria è un esempio.**
 
 Pseudocodice:
 ```
@@ -234,6 +240,8 @@ for(var i = 1; i < n; i *= 2){
   ...
 }
 ```
+
+------
 
 3) **O(n) → Tempo Lineare: il tempo di esecuzione aumenta al massimo in modo lineare con la dimensione dell’input.**
 
@@ -244,9 +252,15 @@ for(var i = 0; i < n; i++){
 }
 ```
 
-**Regola generale n. 2: il tempo massimo di esecuzione di un ciclo è il tempo di esecuzione delle istruzioni all’interno del ciclo moltiplicato per il numero di iterazioni.**
+------
 
-4) **O(nlog(n)) → Tempo Quasilineare: in molti casi, il tempo di esecuzione nlog(n) è semplicemente il risultato di un’operazione O(log(n)) per n volte. Ad esempio, l’ordinamento dell’Albero Binario crea un nuovo Albero Binario inserendo ogni elemento dell’array di dimensioni n uno per uno. Inoltre, il Quicksort e il Merge Sort vengono eseguiti nel tempo O(nlog(n)).**
+```
+**Regola generale n. 2: il tempo massimo di esecuzione di un ciclo è il tempo di esecuzione delle istruzioni all’interno del ciclo moltiplicato per il numero di iterazioni.**
+```
+
+------
+
+**O(nlog(n)) → Tempo Quasilineare: in molti casi, il tempo di esecuzione nlog(n) è semplicemente il risultato di un’operazione O(log(n)) per n volte. Ad esempio, l’ordinamento dell’Albero Binario crea un nuovo Albero Binario inserendo ogni elemento dell’array di dimensioni n uno per uno. Inoltre, il Quicksort e il Merge Sort vengono eseguiti nel tempo O(nlog(n)).**
 
 Pseudocodice:
 ```
@@ -257,7 +271,9 @@ for(var i = 0; i < n; i++){
 }
 ```
 
-5) **O(n^2) → Tempo Quadratico: un Algoritmo di Ordinamento comune come il Bubble Sort, il Selection Sort e l'Insertion Sort viene eseguito in O(n^2).**
+------
+
+**O(n^2) → Tempo Quadratico: un Algoritmo di Ordinamento comune come il Bubble Sort, il Selection Sort e l'Insertion Sort viene eseguito in O(n^2).**
 
 Pseudocodice:
 ```
@@ -268,9 +284,15 @@ for(var i = 0; i < n; i++){
 }
 ```
 
-**Regola generale n. 3: il tempo di esecuzione totale dei loop nidificati, è il tempo di esecuzione del loop esterno moltiplicato per i loop interni.**
+------
 
-6) **O(2^n) → Tempo Esponenziale: questo è comune nelle situazioni in cui si attraversano tutti i nodi di un Albero Binario.**
+```
+**Regola generale n. 3: il tempo di esecuzione totale dei loop nidificati, è il tempo di esecuzione del loop esterno moltiplicato per i loop interni.**
+```
+
+------
+
+**O(2^n) → Tempo Esponenziale: questo è comune nelle situazioni in cui si attraversano tutti i nodi di un Albero Binario.**
 
 Pseudocodice:
 ```
@@ -282,7 +304,9 @@ function fib(n){
 }
 ```
 
-7) **O(n!) → Tempo Fattoriale: questo è comune nel generare permutazioni.**
+------
+
+**O(n!) → Tempo Fattoriale: questo è comune nel generare permutazioni.**
 
 Pseudocodice:
 ```
@@ -292,6 +316,8 @@ function fact(n){
   }
 }
 ```
+
+------
 
 # Per maggiori informazioni
 
