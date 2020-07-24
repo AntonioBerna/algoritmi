@@ -11,7 +11,7 @@ Algoritmi di Ordinamento e di Ricerca
   - [Vantaggi e Svantaggi del QuickSort](#vantaggi-e-svantaggi-del-quicksort)
 - [Linear Search](#linear-search)
 - [Binary Search](#binary-search)
-- [Depth-First Search (Ricerca Approfondita)](#depth-first-search)
+- [Depth-First Search](#depth-first-search)
 - [Binary Search Tree](#binary-search-tree)
 - [Time Complexity](#time-complexity)
   - [Complessità Temporali Comuni](#complessità-temporali-comuni)
@@ -184,7 +184,7 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 **Bonus: Si chiama Ricerca Binaria perché divide continuamente l’array in due parti, con il risultato della parte sinistra o destra.**
 
-## Depth-First Search (Ricerca Approfondita)
+## Depth-First Search
 
 Questo algoritmo di ricerca è appositamente progettato per grafici (graphs) e alberi (trees). Un grafico è un insieme di nodi collegati. Ogni nodo è chiamato vertice (vertex) e la connessione tra due di essi è chiamata bordo (edge). Mentre un albero (trees) è un grafico aciclico cioè un grafico non orientato, in cui due vertici sono collegati esattamente da un percorso.
 
