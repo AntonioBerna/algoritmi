@@ -6,11 +6,11 @@ Questi fattori sono indicati come Time Complexity e Space Complexity dell’algo
 
 Ecco alcuni algoritmi di ordinamento noti:
 
-1) Bubble Sort
-2) Selection Sort
-3) Insertion Sort
-4) Merge Sort
-5) QuickSort
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
+* Merge Sort
+* QuickSort
 
 Quando si sceglie un algoritmo di ordinamento, è necessario considerare la quantità di dati che si sta ordinando e il tempo necessario per implementare l’algoritmo.
 Ad esempio, QuickSort è molto efficiente, ma può essere piuttosto complicato da implementare, mentre, Bubble Sort è semplice da implementare, ma è lento.
