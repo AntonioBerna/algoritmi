@@ -11,7 +11,7 @@ Algoritmi di Ordinamento e di Ricerca
   - [Vantaggi e Svantaggi del QuickSort](#vantaggi-e-svantaggi-del-quicksort)
 - [Linear Search](#linear-search)
 - [Binary Search](#binary-search)
-- [Depth-First Search (Ricerca Approfondita)](#depth-first-search-(ricerca-approfondita))
+- [Depth-First Search (Ricerca Approfondita)](#depth-first-search)
 - [Binary Search Tree](#binary-search-tree)
 - [Time Complexity](#time-complexity)
   - [Complessità Temporali Comuni](#complessità-temporali-comuni)
