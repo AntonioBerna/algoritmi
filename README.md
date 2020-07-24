@@ -1,10 +1,10 @@
 # Algoritmi di Ordinamento e di Ricerca
 
-Tutti gli algoritmi di ordinamento condividono l’obiettivo di generare un elenco ordinato, ma il modo in cui ciascun algoritmo svolge questa attività può variare.
+Tutti gli algoritmi di ordinamento condividono l’obiettivo di generare un array ordinato, ma il modo in cui ciascun algoritmo svolge questa attività può variare.
 Quando si lavora con qualsiasi tipo di algoritmo, è importante sapere quanto è veloce e in quanto spazio opera.
-Questi fattori sono indicati come Time Complexity e Space Complexity dell’algoritmo.
+Questi fattori sono indicati come **Time Complexity** e **Space Complexity** dell’algoritmo.
 
-Ecco alcuni algoritmi di ordinamento noti:
+Questi sono alcuni algoritmi di ordinamento noti:
 
 * Bubble Sort
 * Selection Sort
@@ -14,15 +14,16 @@ Ecco alcuni algoritmi di ordinamento noti:
 
 Quando si sceglie un algoritmo di ordinamento, è necessario considerare la quantità di dati che si sta ordinando e il tempo necessario per implementare l’algoritmo.
 Ad esempio, QuickSort è molto efficiente, ma può essere piuttosto complicato da implementare, mentre, Bubble Sort è semplice da implementare, ma è lento.
-Per ordinare piccoli set di dati, Bubble Sort potrebbe essere un’opzione migliore poiché può essere implementata rapidamente, ma per set di dati più grandi, la velocità di QuickSort potrebbe valere la pena di implementare l’algoritmo seppur complesso.
 
-Prima di buttarsi sull’algoritmo che preferiamo o che conosciamo meglio vale la pena valutare tutti gli algoritmi per determinare la soluzione migliore.
+Per ordinare piccoli set di dati, Bubble Sort potrebbe essere un’opzione migliore poiché può essere implementato rapidamente, ma per set di dati più grandi, la velocità di QuickSort potrebbe valere la pena di implementare l’algoritmo seppur complesso.
+
+***Prima di buttarsi sull’algoritmo che preferiamo o che conosciamo meglio vale la pena valutare tutti gli algoritmi per determinare la soluzione migliore.***
 
 ## Bubble Sort
 
-Bubble Sort è un algoritmo utilizzato per ordinare una lista di elementi, ad esempio elementi in un array.
+Il Bubble Sort è un algoritmo utilizzato per ordinare una lista di elementi, ad esempio elementi in un array.
 L’algoritmo confronta due elementi adiacenti e quindi li scambia se non sono in ordine.
-Il processo viene ripetuto fino a quando non è necessario più lo scambio.
+Il processo viene ripetuto fino a quando non è più necessario lo scambio.
 
 Per esempio, consideriamo il seguente array [3,1,5,2]:
 
@@ -32,7 +33,7 @@ Per esempio, consideriamo il seguente array [3,1,5,2]:
 
 Questa è stata la prima iterazione sull’array.
 
-Ora dobbiamo iniziare la seconda iterazione:
+La seconda iterazione, invece, genera questi risultati:
 
 1) [1,3,2,5]
 2) [1,2,3,5]
@@ -40,10 +41,10 @@ Ora dobbiamo iniziare la seconda iterazione:
 
 La terza iterazione non cambierà alcun elemento, il che significa che l’elenco è ordinato!
 
-Il vantaggio principale di Bubble Sort è la semplicità dell’algoritmo.
-In termini di complessità, Bubble Sort è considerato non ottimale, poiché ha richiesto più iterazioni sull’array.
+**Il vantaggio principale di Bubble Sort è la semplicità dell’algoritmo.
+In termini di complessità, Bubble Sort è considerato non ottimale, poiché ha richiesto più iterazioni sull’array.**
 
-Nel peggiore dei casi, in cui tutti gli elementi devono essere scambiati, richiederà:
+Nel peggiore dei casi, in cui tutti gli elementi devono essere scambiati, l'algoritmo richiederà:
 
 ![](images/1.jpg)
 
@@ -51,11 +52,11 @@ scambi (n è il numero di elementi).
 
 Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/1_Bubble%20Sort/Bubble%20Sort.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/1_Bubble%20Sort/Bubble%20Sort.py)
 
-**Bonus: L’algoritmo si chiama Bubble Sort, perché ad ogni iterazione l’elemento più piccolo dell’elenco si sposta verso l’alto, proprio come una bolla sale sulla superficie dell'acqua.**
+**Bonus: L’algoritmo si chiama Bubble Sort, perché ad ogni iterazione l’elemento più piccolo dell'array si sposta verso l’alto, proprio come una bolla sale sulla superficie dell'acqua.**
 
 ## Selection Sort
 
-Selection Sort è un semplice algoritmo che trova l’elemento più piccolo nell’array e lo scambia con l’elemento nella prima posizione, quindi trova il secondo elemento più piccolo e lo scambia con l’elemento nella seconda posizione, e continua in questo modo fino a quando l’intero array è ordinato.
+Il Selection Sort è un semplice algoritmo che trova l’elemento più piccolo nell’array e lo scambia con l’elemento nella prima posizione, quindi trova il secondo elemento più piccolo e lo scambia con l’elemento nella seconda posizione, e continua in questo modo fino a quando l’intero array è ordinato.
 
 Per esempio, consideriamo il seguente array [3,1,5,2]:
 
@@ -71,13 +72,13 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 ## Insertion Sort
 
-Insertion Sort è un semplice algoritmo che funziona nello stesso modo in cui vengono ordinate le carte da gioco nelle nostre mani. Ordiniamo le prime due carte e quindi posizioniamo la terza carta nella posizione appropriata all’interno delle prime due, quindi la quarta viene posizionata tra le prime tre e così via fino a quando l’intera mano non viene ordinata. Durante un’iterazione, un elemento dell’elenco viene inserito nella parte ordinata dell’array alla sua sinistra. Quindi, sostanzialmente, per ogni iterazione, abbiamo un array di elementi ordinati a sinistra e un array di elementi ancora da ordinare a destra.
+L'Insertion Sort è un semplice algoritmo che funziona nello stesso modo in cui vengono ordinate le carte da gioco nelle nostre mani. Ordiniamo le prime due carte e quindi posizioniamo la terza carta nella posizione appropriata all’interno delle prime due, quindi la quarta viene posizionata tra le prime tre e così via fino a quando l’intera mano non viene ordinata. Durante un’iterazione, un elemento dell'array viene inserito nella parte ordinata dell’array alla sua sinistra. Quindi, sostanzialmente, per ogni iterazione, abbiamo un array di elementi ordinati a sinistra e un array di elementi ancora da ordinare a destra.
 
 Sembra confuso?
 
 Diamo un’occhiata ad un esempio per capire meglio l’algoritmo. Consideriamo il seguente array [3,1,5,2]:
 
-1) Iniziamo con il secondo elemento (1) e lo posizioniamo correttamente "nell’array" dei primi due elementi. Risultato: [1,3,5,2], ora abbiamo un array ordinato a sinistra ([1,3]) e gli altri elementi a destra.
+1) Iniziamo con il secondo elemento (1) e lo posizioniamo correttamente nell’array fra i primi due elementi. Risultato: [1,3,5,2], ora abbiamo un array ordinato a sinistra ([1,3]) e gli altri elementi ancora da ordinare a destra.
 2) L’elemento successivo è 5. Inserendolo nell’array a sinistra si ottiene: [1,3,5,2].
 3) L’ultimo elemento (2) viene inserito nella posizione corrispondente, risultando in: [1,2,3,5].
 
@@ -89,7 +90,7 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 ## Merge Sort
 
-Il Merge Sort appartiene alla categoria degli algoritmi Divide Et Impera. Questi algoritmi funzionano suddividendo grossi problemi in più piccoli e più facilmente risolvibili. L’idea dell’algoritmo di tipo Merge è di dividere l’array a metà più e più volte fino a quando ogni pezzo è lungo solo un oggetto. Quindi quegli elementi vengono rimessi insieme (uniti) nell’ordinamento.
+Il Merge Sort appartiene alla categoria degli algoritmi **Divide Et Impera**. Questi algoritmi funzionano suddividendo grossi problemi in più piccoli e più facilmente risolvibili. L’idea dell’algoritmo di tipo Merge è di dividere l’array a metà più e più volte fino a quando ogni singolo array è lungo solo un elemento. Quindi gli elementi vengono rimessi insieme (uniti) e ordinati.
 
 Diamo un’occhiata ad un esempio, iniziamo dividendo l’array [31, 4, 88, 1, 4, 2, 42]:
 
@@ -105,30 +106,29 @@ Ora dobbiamo riunirli di nuovo insieme ordinandoli:
 
 Ora l’array è ordinato!
 
-**L’idea alla base dell’algoritmo è che le parti più piccole sono più facili da ordinare. L’operazione di unione è la parte più importante dell’algoritmo.**
+**L’idea alla base dell’algoritmo è che le parti più piccole sono più facili da ordinare e l'operazione di unione è la parte più importante dell’algoritmo.**
 
 Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/4_Merge%20Sort/Merge%20Sort.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/4_Merge%20Sort/Merge%20Sort.py)
 
-**Bonus: Il Merge Sort è utile per ordinare gli elenchi collegati, poiché le operazioni di unione possono essere implementate senza spazio aggiuntivo per gli elenchi collegati.**
+**Bonus: Il Merge Sort è utile per ordinare i linked lists (cioè una Struttura Dati), poiché le operazioni di unione possono essere implementate senza spazio aggiuntivo.**
 
 ## QuickSort
 
-QuickSort è un altro algoritmo della categoria degli algoritmi Divide Et Impera. Funziona abbattendo grossi problemi in problemi più piccoli e più facilmente risolvibili. L’idea di QuickSort è di scegliere un elemento perno (pivot). Le versioni di QuickSort si differenziano per il metodo di pivot picking. Il primo, l’ultimo, il mediano o anche un elemento selezionato casualmente è un candidato da scegliere come perno. La parte principale del processo di ordinamento è il partizionamento.
-Una volta scelto il perno, l’array viene suddiviso in due metà: una metà contenente tutti gli elementi minori del perno e l’altra contenente gli elementi maggiori del perno. Quindi, lo stesso processo si verifica in modo ricorsivo per le restanti metà dell’array, risultando infine in un array ordinato.
+Anche il QuickSort appartiene alla categoria degli algoritmi **Divide Et Impera**, cioè, suddivide grossi problemi in più piccoli e più facilmente risolvibili. L’idea alla base del QuickSort è di scegliere un elemento perno (pivot). Le versioni di QuickSort si differenziano per il metodo di **pivot picking**. Il primo, l’ultimo, il mediano o anche un elemento selezionato casualmente è un possibile candidato da scegliere come perno. **La parte principale del processo di ordinamento è il partizionamento.**
+Una volta scelto il perno, l’array viene suddiviso in due metà: una metà contenente tutti gli elementi più piccoli del perno e l’altra contenente tutti gli elementi più grandi del perno. Quindi, lo stesso processo si ripete in modo ricorsivo per le restanti metà dell'array, risultando infine in un array ordinato.
 
-Consideriamo il seguente esempio, supponiamo di avere la seguente sequenza [2, 0, 7, 4, 3]:
+Consideriamo il seguente esempio [2, 0, 7, 4, 3]:
 
 1) Scegliamo 3 (ultimo elemento in posizione 4) come perno.
-2) Dopo aver fatto 4 confronti otteniamo le due metà: [2,0] (3) [7,4]
-3) Ora, lo stesso processo si ripete per le due metà: scegliamo (0) come perno per la metà inferiore e (4) per la metà maggiore.
-4) Dopo un confronto per ogni metà, otteniamo:
-[(0)[2]] (3) [(4)[7]] quale è una sequenza ordinata.
+2) Dopo aver fatto 4 confronti otteniamo le due metà dell'array più il perno: [2,0] (3) [7,4]
+3) Ora, lo stesso processo si ripete per le due metà dell'array: scegliamo (0) come perno per il sotto l'array con gli elementi più piccoli e (4) per il sotto l'array con gli elementi più grandi.
+4) Dopo un confronto per ogni metà, otteniamo: [(0)[2]] (3) [(4)[7]], che risulta essere un array ordinato!
 
 Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/5_QuickSort/QuickSort.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/5_QuickSort/QuickSort.py)
 
 ### Vantaggi e Svantaggi del QuickSort
 
-La scelta del pivot fa una grande differenza, poiché una selezione del pivot non riuscita può ridurre significativamente la velocità dell’algoritmo. Una variante di QuickSort è il QuickSort a 3 vie, che lo rende più conveniente per i dati con elevata ridondanza. La versione casuale di QuickSort è la più efficiente, sceglie il perno in modo casuale, evitando così i casi peggiori per modelli particolari (come array ordinati), sebbene non del tutto.
+***La scelta del pivot (perno) fa una grande differenza, poiché una selezione del pivot non riuscita può ridurre significativamente la velocità dell’algoritmo. Una variante di QuickSort è il QuickSort a 3 vie, che lo rende più conveniente per i dati con elevata ridondanza. Invece, la versione casuale del QuickSort è la più efficiente: si sceglie il perno in modo casuale, evitando così i casi peggiori per modelli particolari (come array ordinati), sebbene non del tutto.***
 
 ## Linear Search
 
