@@ -158,7 +158,7 @@ Elemento trovato!
 
 Proviamo a cercare l’elemento 4 nell'array in figura, prendendo come elemento centrale 7:
 
-![](images/2.png =200x200)
+![](images/2.png)
 
 
 # Per maggiori informazioni
