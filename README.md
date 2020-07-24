@@ -166,7 +166,13 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 ## Depth-First Search (Ricerca Approfondita)
 
+Questo algoritmo di ricerca è appositamente progettato per grafici (graphs) e alberi (trees). Un grafico è un insieme di nodi collegati. Ogni nodo è chiamato vertice (vertex) e la connessione tra due di essi è chiamata bordo (edge). Mentre un albero (trees) è un grafico aciclico cioè un grafico non orientato, in cui due vertici sono collegati esattamente da un percorso.
 
+La ricerca approfondita (DFS) è un algoritmo di ricerca ricorsiva ce utilizza il backtracking. Inizia dalla radice dell’albero (nodo arbitrario nel caso del grafico) ed esplora il più possibile fino a quando tutti i nodi vengono visitati. La parola backtrack significa che quando ci si sposta in avanti e non ci sono più nodi lungo il percorso, ci si sposta indietro sullo stesso percorso per trovare nodi da attraversare.
+
+Esempio: eseguiamo l’algoritmo sul grafico di lato e vediamo in quale ordine verranno visitati i nodi e inoltre supponiamo che l’algoritmo scelga i bordi a sinistra prima di quelli a destra:
+
+![](images/3.png)
 
 # Per maggiori informazioni
 
