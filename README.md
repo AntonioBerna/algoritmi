@@ -194,8 +194,8 @@ Esempio: eseguiamo l’algoritmo sul grafico in basso e vediamo in quale ordine 
 
 ![](images/4.jpg)
 
-1) Visitare il nodo A. Continuare sul nodo sinistro.
-2) Visitare il nodo B. Continuare sul nodo sinistro.
+1) Visitare il nodo A. Continuare sul bordo sinistro.
+2) Visitare il nodo B. Continuare sul bordo sinistro.
 3) Visitare il nodo D. Non ci sono più nodi disponibili nel percorso, torna al nodo B.
 4) Visitare il nodo F. Continuare con il nodo disponibile nel percorso.
 5) Visitare il nodo E. Il nodo A è già stato visitato.
