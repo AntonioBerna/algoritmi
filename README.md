@@ -214,7 +214,7 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 ## Binary Search Tree
 
-La Binary Search Tree (BST) è un albero binario speciale in cui la chiave in ciascun nodo deve essere maggiore o uguale a qualsiasi chiave memorizzata nella sottostruttura sinistra e minore o uguale a qualsiasi chiave memorizzata nella sottostruttura destra.
+Gli Alberi di Ricerca Binaria (BST) sono speciali alberi binari in cui la chiave in ciascun nodo deve essere maggiore o uguale a qualsiasi chiave memorizzata nella sottostruttura sinistra e minore o uguale a qualsiasi chiave memorizzata nella sottostruttura destra.
 
 Per esempio:
 
