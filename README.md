@@ -152,9 +152,9 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 ## Linear Search
 
-La Ricerca Lineare è un algoritmo di ricerca molto semplice. Ogni elemento viene controllato e se viene trovata una corrispondenza, viene restituito quel particolare elemento, altrimenti la ricerca continua fino alla fine dell'elenco. La Ricerca Lineare non richiede un elenco ordinato.
+La Ricerca Lineare è un algoritmo di ricerca molto semplice. Ogni elemento viene controllato e se viene trovata una corrispondenza, viene restituito quel particolare elemento, altrimenti la ricerca continua fino alla fine dell'array. La Ricerca Lineare non richiede un array ordinato.
 
-Proviamo a cercare di trovare il valore x nell'elenco. L’algoritmo è formato dai seguenti passaggi:
+Proviamo a cercare di trovare il valore x nell'array. L’algoritmo è formato dai seguenti passaggi:
 
 1) Inizia dall'elemento più a sinistra dell'elenco e uno per uno confronta x con ciascun elemento dell'array.
 2) Se x corrisponde a un elemento, restituisce l'indice.
