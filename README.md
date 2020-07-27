@@ -152,9 +152,9 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 ## Linear Search
 
-La Ricerca Lineare è un algoritmo di ricerca molto semplice. Ogni elemento viene controllato e se viene trovata una corrispondenza, viene restituito quel particolare elemento, altrimenti la ricerca continua fino alla fine dell'array. La Ricerca Lineare non richiede un array ordinato.
+La Ricerca Lineare è un algoritmo di ricerca molto semplice. Ogni elemento viene controllato e se viene trovata una corrispondenza, viene restituito quel particolare elemento, altrimenti la ricerca continua fino alla fine dell'array. **La Ricerca Lineare non richiede un array ordinato.**
 
-Proviamo a cercare di trovare il valore x nell'array. L’algoritmo è formato dai seguenti passaggi:
+Proviamo a cercare il valore x nell'array. L’algoritmo è formato dai seguenti passaggi:
 
 1) Inizia dall'elemento più a sinistra dell'elenco e uno per uno confronta x con ciascun elemento dell'array.
 2) Se x corrisponde a un elemento, restituisce l'indice.
@@ -166,7 +166,7 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 ## Binary Search
 
-La Ricerca Binaria è un algoritmo di ricerca rapida che funziona su elenchi ordinati. Appartiene alla categoria **Divide Et Impera**, il che significa che scompone grossi problemi in problemi più piccoli e più facilmente risolvibili. L’algoritmo cerca una corrispondenza confrontando l’elemento centrale di un array. Se si verifica una corrispondenza, viene restituito l’indice dell’elemento. Se l’elemento centrale è maggiore dell’elemento da trovare, viene confrontato l’elemento centrale del sotto array a sinistra, altrimenti viene confrontato l’elemento centrale del sotto array a destra. Questo processo si ripete sui sotto array fino a quando la dimensione del sotto array non si riduce a zero. Fondamentalmente, l’array è diviso in due metà e la ricerca continua nella metà in cui l’elemento ha la possibilità di essere localizzato. Questo è il motivo per cui l’algoritmo richiede un elenco ordinato.
+La Ricerca Binaria è un algoritmo di ricerca rapida che funziona su array ordinati. Appartiene alla categoria **Divide Et Impera**, il che significa che scompone grossi problemi in problemi più piccoli e più facilmente risolvibili. L’algoritmo cerca una corrispondenza confrontando l’elemento centrale di un array. Se si verifica una corrispondenza, viene restituito l’indice dell’elemento. Se l’elemento centrale è maggiore dell’elemento da trovare, viene confrontato l’elemento centrale del sotto array a sinistra, altrimenti viene confrontato l’elemento centrale del sotto array a destra. Questo processo si ripete sui sotto array fino a quando la dimensione del sotto array non si riduce a zero. **Fondamentalmente, l’array è diviso in due metà e la ricerca continua nella metà in cui l’elemento ha la possibilità di essere localizzato. Questo è il motivo per cui l’algoritmo richiede un elenco ordinato.**
 
 Prendiamo un array ordinato di esempio [2,5,16,18,24,42] e cerchiamo l’elemento 24:
 
@@ -204,17 +204,17 @@ Esempio: eseguiamo l’algoritmo sul grafico in basso e vediamo in quale ordine 
 
 Quindi, ricordando i nodi visitati l’ordine sarà: A, B, D, F, E, C, G.
 
-Senza ricordare i nodi visitati: A, B, D, F, E (il percorso si ripeterà di nuovo) e non raggiugerà mai i nodi C e G.
+Senza ricordare i nodi visitati l’ordine sarà: A, B, D, F, E (il percorso si ripeterà di nuovo) e non raggiugerà mai i nodi C e G.
 
 Se rimuoviamo il bordo tra i nodi F ed E, otterremo un albero (trees) e l’ordine dei nodi visitati sarà: A, B, D, F, C, G, E.
 
 Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/8_Depth-First%20Search/Depth-Fisrt%20Search.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/8_Depth-First%20Search/Depth-Fisrt%20Search.py)
 
-**Bonus: Il DFS viene solitamente implementato utilizzando uno Stack (cioè una Struttura Dati) o un array / matrice di adiacenza.**
+**Bonus: La DFS viene solitamente implementata utilizzando uno Stack (cioè una Struttura Dati) o un array / matrice di adiacenza.**
 
 ## Binary Search Tree
 
-Binary Search Tree (BST) è un albero binario speciale in cui la chiave in ciascun nodo deve essere maggiore o uguale a qualsiasi chiave memorizzata nella sottostruttura sinistra e minore o uguale a qualsiasi chiave memorizzata nella sottostruttura destra.
+La Binary Search Tree (BST) è un albero binario speciale in cui la chiave in ciascun nodo deve essere maggiore o uguale a qualsiasi chiave memorizzata nella sottostruttura sinistra e minore o uguale a qualsiasi chiave memorizzata nella sottostruttura destra.
 
 Per esempio:
 
@@ -222,7 +222,7 @@ Per esempio:
 
 I BST consentono una rapida ricerca (aggiunta e rimozione di elementi) e possono essere utilizzati per implementare array dinamici o tabelle di ricerca che consentono di trovare un elemento tramite la sua chiave (ad esempio, trovare il numero di telefono di una persona con il cognome).
 
-Le operazioni di ricerca, inserimento ed eliminazione sono fondamentali nei BST. Poiché le chiavi sono memorizzate in un ordine particolare, il principio della ricerca binaria può essere utilizzato per la ricerca. Partiamo dalla radice e confrontiamo la chiave. Se la radice ha la chiave, viene restituita come risultato. Se la chiave è maggiore della radice, la sottostruttura destra viene controllata in modo ricorsivo. Se la chiave è inferiore alla radice, la sottostruttura sinistra viene controllata in modo ricorsivo. La ricorsione continua fino a quando non viene trovata la chiave. Le operazioni di inserimento ed eliminazione sono molto simili, poiché entrambe utilizzano la stessa logica di ricerca per individuare il nodo necessario.
+Le operazioni di ricerca, inserimento ed eliminazione sono fondamentali nei BST. Poiché le chiavi sono memorizzate in un ordine particolare, il principio della semplice Ricerca Binaria può essere utilizzato per la ricerca: Partiamo dalla radice e confrontiamo la chiave. Se la radice ha la chiave, viene restituita come risultato. Se la chiave è maggiore della radice, la sottostruttura destra viene controllata in modo ricorsivo. Se la chiave è inferiore alla radice, la sottostruttura sinistra viene controllata in modo ricorsivo. La ricorsione continua fino a quando non viene trovata la chiave. **Le operazioni di inserimento ed eliminazione sono molto simili, poiché entrambe utilizzano la stessa logica di ricerca per individuare il nodo necessario.**
 
 Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/9_Binary%20Search%20Tree/Binary%20Search%20Tree.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/9_Binary%20Search%20Tree/Binary%20Search%20Tree.py)
 
