@@ -59,7 +59,7 @@ La seconda iterazione, invece, genera questi risultati:
 2) [1,2,3,5]
 3) [1,2,3,5]
 
-La terza iterazione non cambierà alcun elemento, il che significa che l’elenco è ordinato!
+La terza iterazione non cambierà alcun elemento, il che significa che l’array è ordinato!
 
 **Il vantaggio principale di Bubble Sort è la semplicità dell’algoritmo.
 In termini di complessità, Bubble Sort è considerato non ottimale, poiché ha richiesto più iterazioni sull’array.**
@@ -166,7 +166,7 @@ Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2
 
 ## Binary Search
 
-La Ricerca Binaria è un algoritmo di ricerca rapida che funziona su array ordinati. Appartiene alla categoria **Divide Et Impera**, il che significa che scompone grossi problemi in problemi più piccoli e più facilmente risolvibili. L’algoritmo cerca una corrispondenza confrontando l’elemento centrale di un array. Se si verifica una corrispondenza, viene restituito l’indice dell’elemento. Se l’elemento centrale è maggiore dell’elemento da trovare, viene confrontato l’elemento centrale del sotto array a sinistra, altrimenti viene confrontato l’elemento centrale del sotto array a destra. Questo processo si ripete sui sotto array fino a quando la dimensione del sotto array non si riduce a zero. **Fondamentalmente, l’array è diviso in due metà e la ricerca continua nella metà in cui l’elemento ha la possibilità di essere localizzato. Questo è il motivo per cui l’algoritmo richiede un elenco ordinato.**
+La Ricerca Binaria è un algoritmo di ricerca rapida che funziona su array ordinati. Appartiene alla categoria **Divide Et Impera**, il che significa che scompone grossi problemi in problemi più piccoli e più facilmente risolvibili. L’algoritmo cerca una corrispondenza confrontando l’elemento centrale di un array. Se si verifica una corrispondenza, viene restituito l’indice dell’elemento. Se l’elemento centrale è maggiore dell’elemento da trovare, viene confrontato l’elemento centrale del sotto array a sinistra, altrimenti viene confrontato l’elemento centrale del sotto array a destra. Questo processo si ripete sui sotto array fino a quando la dimensione del sotto array non si riduce a zero. **Fondamentalmente, l’array è diviso in due metà e la ricerca continua nella metà in cui l’elemento ha la possibilità di essere localizzato. Questo è il motivo per cui l’algoritmo richiede un array ordinato.**
 
 Prendiamo un array ordinato di esempio [2,5,16,18,24,42] e cerchiamo l’elemento 24:
 
