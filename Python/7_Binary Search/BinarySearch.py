@@ -1,6 +1,6 @@
 def binary_search(my_list, l, r, x):
 	if r >= l:
-		mid = l + (r - l)/2
+		mid = l + (r - l)//2
 		if my_list[mid] == x:
 			return mid
 		elif my_list[mid] > x:
