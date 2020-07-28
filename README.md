@@ -348,6 +348,6 @@ function fact(n){
 # Per maggiori informazioni
 
 Mini Corso Base Algoritmi di Ordinamento [Youtube]: https://www.youtube.com/watch?v=KhsCEVO1zhk&t=23s
-Mini Corso Base Algoritmi di Ricerca [Youtube]: 
+Mini Corso Base Algoritmi di Ricerca [Youtube]: https://youtu.be/SQfW0gbPB60
 
 Created By Antonio Bernardini Copyright© 2020
