@@ -37,7 +37,7 @@ Ad esempio, QuickSort è molto efficiente, ma può essere piuttosto complicato d
 
 Per ordinare piccoli set di dati, Bubble Sort potrebbe essere un’opzione migliore poiché può essere implementato rapidamente, ma per set di dati più grandi, la velocità di QuickSort potrebbe valere la pena di implementare l’algoritmo seppur complesso.
 
-***Prima di buttarsi sull’algoritmo che preferiamo o che conosciamo meglio vale la pena valutare tutti gli algoritmi per determinare la soluzione migliore.***
+***Prima di buttarsi sull’algoritmo che preferiamo o che conosciamo meglio, vale la pena valutare tutti gli algoritmi per determinare la soluzione migliore.***
 
 ## Bubble Sort
 
