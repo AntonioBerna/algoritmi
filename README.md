@@ -70,7 +70,7 @@ Nel peggiore dei casi, in cui tutti gli elementi devono essere scambiati, l'algo
 
 scambi (n è il numero di elementi).
 
-Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/1_Bubble%20Sort/Bubble%20Sort.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/1_Bubble%20Sort/Bubble%20Sort.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/1_Bubble%20Sort/src/BubbleSort.java)
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/1_Bubble%20Sort/Bubble%20Sort.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/1_Bubble%20Sort/Bubble%20Sort.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/1_Bubble%20Sort/src/BubbleSort.java), [Javascript](https://github.com/AntonioBerna/Algoritmi/blob/master/Javascript/1_Bubble%20Sort/Bubble%20Sort.js)
 
 **Bonus: L’algoritmo si chiama Bubble Sort, perché ad ogni iterazione l’elemento più piccolo dell'array si sposta verso l’alto, proprio come una bolla sale sulla superficie dell'acqua.**
 
@@ -86,7 +86,7 @@ Per esempio, consideriamo il seguente array [3,1,5,2]:
 
 L’array è ordinato!
 
-Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/2_Selection%20Sort/Selection%20Sort.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/2_Selection%20Sort/Selection%20Sort.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/2_Selection%20Sort/src/SelectionSort.java)
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/2_Selection%20Sort/Selection%20Sort.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/2_Selection%20Sort/Selection%20Sort.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/2_Selection%20Sort/src/SelectionSort.java), [Javascript](https://github.com/AntonioBerna/Algoritmi/blob/master/Javascript/2_Selection%20Sort/Selection%20Sort.js)
 
 **Bonus: L'algoritmo è efficiente per gli array di piccole dimensioni, ma molto inefficiente per quelli di grandi dimensioni.**
 
@@ -104,7 +104,7 @@ Diamo un’occhiata ad un esempio per capire meglio l’algoritmo. Consideriamo 
 
 Ora l’array è ordinato!
 
-Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/3_Insertion%20Sort/Insertion%20Sort.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/3_Insertion%20Sort/Insertion%20Sort.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/3_Insertion%20Sort/src/InsertionSort.java)
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/3_Insertion%20Sort/Insertion%20Sort.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/3_Insertion%20Sort/Insertion%20Sort.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/3_Insertion%20Sort/src/InsertionSort.java), [Javascript](https://github.com/AntonioBerna/Algoritmi/blob/master/Javascript/3_Insertion%20Sort/Insertion%20Sort.js)
 
 **Bonus: L'algoritmo è efficiente per gli array di piccole dimensioni, ma molto inefficiente per quelli di grandi dimensioni.**
 
@@ -128,7 +128,7 @@ Ora l’array è ordinato!
 
 **L’idea alla base dell’algoritmo è che le parti più piccole sono più facili da ordinare e l'operazione di unione è la parte più importante dell’algoritmo.**
 
-Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/4_Merge%20Sort/Merge%20Sort.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/4_Merge%20Sort/Merge%20Sort.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/4_Merge%20Sort/src/MergeSort.java)
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/4_Merge%20Sort/Merge%20Sort.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/4_Merge%20Sort/Merge%20Sort.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/4_Merge%20Sort/src/MergeSort.java), [Javascript](https://github.com/AntonioBerna/Algoritmi/blob/master/Javascript/4_Merge%20Sort/Merge%20Sort.js)
 
 **Bonus: Il Merge Sort è utile per ordinare i Linked Lists (cioè una Struttura Dati), poiché le operazioni di unione possono essere implementate senza spazio aggiuntivo.**
 
@@ -144,7 +144,7 @@ Consideriamo il seguente esempio [2, 0, 7, 4, 3]:
 3) Ora, lo stesso processo si ripete per le due metà dell'array: scegliamo (0) come perno per il sotto l'array con gli elementi più piccoli e (4) per il sotto l'array con gli elementi più grandi.
 4) Dopo un confronto per ogni metà, otteniamo: [(0)[2]] (3) [(4)[7]], che risulta essere un array ordinato!
 
-Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/5_QuickSort/QuickSort.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/5_QuickSort/QuickSort.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/5_QuickSort/src/QuickSort.java)
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/5_QuickSort/QuickSort.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/5_QuickSort/QuickSort.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/5_QuickSort/src/QuickSort.java), [Javascript](https://github.com/AntonioBerna/Algoritmi/blob/master/Javascript/5_QuickSort/QuickSort.js)
 
 ### Vantaggi e Svantaggi del QuickSort
 
@@ -160,7 +160,7 @@ Proviamo a cercare il valore x nell'array. L’algoritmo è formato dai seguenti
 2) Se x corrisponde a un elemento, restituisce l'indice.
 3) Se x non corrisponde a nessuno degli elementi, restituisce -1.
 
-Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/6_Linear%20Search/LinearSearch.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/6_Linear%20Search/LinearSearch.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/6_Linear%20Search/src/LinearSearch.java)
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/6_Linear%20Search/LinearSearch.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/6_Linear%20Search/LinearSearch.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/6_Linear%20Search/src/LinearSearch.java), [Javascript](https://github.com/AntonioBerna/Algoritmi/blob/master/Javascript/6_Linear%20Search/Linear%20Search.js)
 
 **Bonus: La Ricerca Lineare viene raramente utilizzata perché altri algoritmi di ricerca, come l'algoritmo di Ricerca Binaria, consentono confronti di ricerca significativamente più veloci.**
 
@@ -180,7 +180,7 @@ Proviamo a cercare l’elemento 4 nell'array in figura, prendendo come elemento 
 
 ![](images/2.png)
 
-Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/7_Binary%20Search/BinarySearch.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/7_Binary%20Search/BinarySearch.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/7_Binary%20Search/src/BinarySearch.java)
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/7_Binary%20Search/BinarySearch.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/7_Binary%20Search/BinarySearch.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/7_Binary%20Search/src/BinarySearch.java), [Javascript](https://github.com/AntonioBerna/Algoritmi/blob/master/Javascript/7_Binary%20Search/Binary%20Search.js)
 
 **Bonus: Si chiama Ricerca Binaria perché divide continuamente l’array in due parti, con il risultato della parte sinistra o destra.**
 
@@ -208,7 +208,7 @@ Senza ricordare i nodi visitati l’ordine sarà: A, B, D, F, E (il percorso si 
 
 Se rimuoviamo il bordo tra i nodi F ed E, otterremo un albero (trees) e l’ordine dei nodi visitati sarà: A, B, D, F, C, G, E.
 
-Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/8_Depth-First%20Search/Depth-Fisrt%20Search.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/8_Depth-First%20Search/Depth-Fisrt%20Search.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/8_Depth-First%20Search/src/Graph.java)
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/8_Depth-First%20Search/Depth-Fisrt%20Search.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/8_Depth-First%20Search/Depth-Fisrt%20Search.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/8_Depth-First%20Search/src/Graph.java), [Javascript](https://github.com/AntonioBerna/Algoritmi/blob/master/Javascript/8_Depth-First%20Search/Depth-First%20Search.js)
 
 **Bonus: La DFS viene solitamente implementata utilizzando uno Stack (cioè una Struttura Dati) o un array / matrice di adiacenza.**
 
@@ -224,7 +224,7 @@ I BST consentono una rapida ricerca (aggiunta e rimozione di elementi) e possono
 
 Le operazioni di ricerca, inserimento ed eliminazione sono fondamentali nei BST. Poiché le chiavi sono memorizzate in un ordine particolare, il principio della semplice Ricerca Binaria può essere utilizzato per la ricerca: Partiamo dalla radice e confrontiamo la chiave. Se la radice ha la chiave, viene restituita come risultato. Se la chiave è maggiore della radice, la sottostruttura destra viene controllata in modo ricorsivo. Se la chiave è inferiore alla radice, la sottostruttura sinistra viene controllata in modo ricorsivo. La ricorsione continua fino a quando non viene trovata la chiave. **Le operazioni di inserimento ed eliminazione sono molto simili, poiché entrambe utilizzano la stessa logica di ricerca per individuare il nodo necessario.**
 
-Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/9_Binary%20Search%20Tree/Binary%20Search%20Tree.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/9_Binary%20Search%20Tree/Binary%20Search%20Tree.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/9_Binary%20Search%20Tree/src/BST.java)
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/9_Binary%20Search%20Tree/Binary%20Search%20Tree.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/9_Binary%20Search%20Tree/Binary%20Search%20Tree.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/9_Binary%20Search%20Tree/src/BST.java), [Javascript](https://github.com/AntonioBerna/Algoritmi/blob/master/Javascript/9_Binary%20Search%20Tree/Binary%20Search%20Tree.js)
 
 **Bonus: Gli Alberi di Ricerca Binaria sono utilizzati in molte applicazioni di ricerca.**
 
@@ -258,7 +258,7 @@ Tutte queste operazioni richiedono tempo O(1).
 
 Pseudocodice:
 ```
-for(var i = 1; i < n; i *= 2){
+for(var i = 1; i < n; i *= 2) {
   ...
 }
 ```
@@ -269,7 +269,7 @@ for(var i = 1; i < n; i *= 2){
 
 Pseudocodice:
 ```
-for(var i = 0; i < n; i++){
+for(var i = 0; i < n; i++) {
   ...
 }
 ```
@@ -288,8 +288,8 @@ all’interno del ciclo moltiplicato per il numero di iterazioni.
 
 Pseudocodice:
 ```
-for(var i = 0; i < n; i++){
-  for(var j = n; j > 0; j /= 2){
+for(var i = 0; i < n; i++) {
+  for(var j = n; j > 0; j /= 2) {
     ...
   }
 }
@@ -301,8 +301,8 @@ for(var i = 0; i < n; i++){
 
 Pseudocodice:
 ```
-for(var i = 0; i < n; i++){
-  for(var j = 0; j < n; j++){
+for(var i = 0; i < n; i++) {
+  for(var j = 0; j < n; j++) {
     ...
   }
 }
@@ -322,8 +322,8 @@ del loop esterno moltiplicato per i loop interni.
 
 Pseudocodice:
 ```
-function fib(n){
-  if(n <= 1){
+function fib(n) {
+  if(n <= 1) {
     return n;
   }
   return fib(n-2) + fib(n-1);
@@ -336,8 +336,8 @@ function fib(n){
 
 Pseudocodice:
 ```
-function fact(n){
-  for(var i = 0; i < n; i++){
+function fact(n) {
+  for(var i = 0; i < n; i++) {
     fact(n-1);
   }
 }
