@@ -208,7 +208,7 @@ Senza ricordare i nodi visitati l’ordine sarà: A, B, D, F, E (il percorso si 
 
 Se rimuoviamo il bordo tra i nodi F ed E, otterremo un albero (trees) e l’ordine dei nodi visitati sarà: A, B, D, F, C, G, E.
 
-Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/8_Depth-First%20Search/Depth-Fisrt%20Search.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/8_Depth-First%20Search/Depth-Fisrt%20Search.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/8_Depth-First%20Search/src/Graph.java), [Javascript](https://github.com/AntonioBerna/Algoritmi/blob/master/Javascript/8_Depth-First%20Search/Depth-First%20Search.js), [C](https://github.com/AntonioBerna/Algoritmi/blob/master/C/8_Depth-First%20Search/Depth-First%20Search.c), [C°](https://github.com/AntonioBerna/Algoritmi/blob/master/C%23/8_Depth-First%20Search/Depth-First%20Search.cs)
+Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/8_Depth-First%20Search/Depth-Fisrt%20Search.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/8_Depth-First%20Search/Depth-Fisrt%20Search.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/8_Depth-First%20Search/src/Graph.java), [Javascript](https://github.com/AntonioBerna/Algoritmi/blob/master/Javascript/8_Depth-First%20Search/Depth-First%20Search.js), [C](https://github.com/AntonioBerna/Algoritmi/blob/master/C/8_Depth-First%20Search/Depth-First%20Search.c), [C#](https://github.com/AntonioBerna/Algoritmi/blob/master/C%23/8_Depth-First%20Search/Depth-First%20Search.cs)
 
 **Bonus: La DFS viene solitamente implementata utilizzando uno Stack (cioè una Struttura Dati) o un array / matrice di adiacenza.**
 
