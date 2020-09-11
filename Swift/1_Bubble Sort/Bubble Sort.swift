@@ -1,4 +1,4 @@
-func bubbleSort(arr: [Int]) -> [Int]{
+func bubbleSort(arr: [Int]) -> [Int] {
 	var array = arr
 	for _ in 0..<array.count - 1 {
 		for j in 0..<array.count - 1 {
