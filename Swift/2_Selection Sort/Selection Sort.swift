@@ -9,8 +9,8 @@ func selectionSort(arr: [Int]) -> [Int] {
         }
         
         let temp = array[k]
-		array[k] = array[min_index]
-		array[min_index] = temp
+	array[k] = array[min_index]
+	array[min_index] = temp
     }
     return array
 }
