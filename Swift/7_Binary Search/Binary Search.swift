@@ -1,10 +1,9 @@
 func binarySearch(arr: [Int], value: Int) -> Int? {
     var array = arr
-	var left = 0
+    var left = 0
     var right = array.count - 1
 
     while left <= right {
-
         let middle = Int(Double(left + right) / 2.0)
 
         if array[middle] < value {
@@ -15,6 +14,7 @@ func binarySearch(arr: [Int], value: Int) -> Int? {
             return middle
         }
     }
+	
     return nil
 }
 
