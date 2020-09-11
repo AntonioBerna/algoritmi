@@ -10,10 +10,10 @@ func mergeSort<T: Comparable>(_ array: [T]) -> [T] {
 }
 
 func merge<T: Comparable>(_ left: [T], _ right: [T]) -> [T] {
-	var leftIndex = 0
-	var rightIndex = 0
+  var leftIndex = 0
+  var rightIndex = 0
 	
-	var orderedArray: [T] = []
+  var orderedArray: [T] = []
   
   while leftIndex < left.count && rightIndex < right.count {
     let leftElement = left[leftIndex]
