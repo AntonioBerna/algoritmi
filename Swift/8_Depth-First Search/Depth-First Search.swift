@@ -2,7 +2,7 @@ class Edge {
   	var neighbor: Node
 
   	public init(neighbor: Node) {
-    	self.neighbor = neighbor
+    		self.neighbor = neighbor
   	}
 }
 
@@ -48,9 +48,9 @@ func depthFirstSearch(_ graph: Graph, source: Node) -> [String] {
   	source.visited = true
 
   	for edge in source.neighbors {
-    	if !edge.neighbor.visited {
-      		nodesExplored += depthFirstSearch(graph, source: edge.neighbor)
-    	}
+		if !edge.neighbor.visited {
+			nodesExplored += depthFirstSearch(graph, source: edge.neighbor)
+		}
   	}
   	
 	return nodesExplored
