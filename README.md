@@ -178,7 +178,9 @@ Elemento trovato!
 
 Proviamo a cercare l’elemento 4 nell'array in figura, prendendo come elemento centrale 7:
 
-![](images/2.png)
+<p align="center">
+  <img width="200" heigth="200" src="images/2.png">  
+</p>
 
 Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/7_Binary%20Search/BinarySearch.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/7_Binary%20Search/BinarySearch.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/7_Binary%20Search/src/BinarySearch.java), [Javascript](https://github.com/AntonioBerna/Algoritmi/blob/master/Javascript/7_Binary%20Search/Binary%20Search.js), [C](https://github.com/AntonioBerna/Algoritmi/blob/master/C/7_Binary%20Search/Binary%20Search.c), [C#](https://github.com/AntonioBerna/Algoritmi/blob/master/C%23/7_Binary%20Search/Binary%20Search.cs), [Swift](https://github.com/AntonioBerna/Algoritmi/blob/master/Swift/7_Binary%20Search/Binary%20Search.swift), [Ruby](https://github.com/AntonioBerna/Algoritmi/blob/master/Ruby/7_Binary%20Search/Binary%20Search.rb)
 
