@@ -66,7 +66,9 @@ In termini di complessità, Bubble Sort è considerato non ottimale, poiché ha 
 
 Nel peggiore dei casi, in cui tutti gli elementi devono essere scambiati, l'algoritmo richiederà:
 
-![](images/1.jpg)
+<p align="center">
+  <img src="images/1.jpg">  
+</p>
 
 scambi (n è il numero di elementi).
 
