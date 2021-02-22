@@ -179,7 +179,7 @@ Elemento trovato!
 Proviamo a cercare l’elemento 4 nell'array in figura, prendendo come elemento centrale 7:
 
 <p align="center">
-  <img width="200" heigth="200" src="images/2.png">  
+  <img width="300" heigth="300" src="images/2.png">  
 </p>
 
 Implementazione: [C++](https://github.com/AntonioBerna/Algoritmi/blob/master/C%2B%2B/7_Binary%20Search/BinarySearch.cpp), [Python](https://github.com/AntonioBerna/Algoritmi/blob/master/Python/7_Binary%20Search/BinarySearch.py), [Java](https://github.com/AntonioBerna/Algoritmi/blob/master/Java/7_Binary%20Search/src/BinarySearch.java), [Javascript](https://github.com/AntonioBerna/Algoritmi/blob/master/Javascript/7_Binary%20Search/Binary%20Search.js), [C](https://github.com/AntonioBerna/Algoritmi/blob/master/C/7_Binary%20Search/Binary%20Search.c), [C#](https://github.com/AntonioBerna/Algoritmi/blob/master/C%23/7_Binary%20Search/Binary%20Search.cs), [Swift](https://github.com/AntonioBerna/Algoritmi/blob/master/Swift/7_Binary%20Search/Binary%20Search.swift), [Ruby](https://github.com/AntonioBerna/Algoritmi/blob/master/Ruby/7_Binary%20Search/Binary%20Search.rb)
@@ -194,7 +194,9 @@ La Ricerca Approfondita (DFS) è un algoritmo di ricerca ricorsiva che utilizza 
 
 Esempio: eseguiamo l’algoritmo sul grafico in basso e vediamo in quale ordine verranno visitati i nodi e inoltre supponiamo che l’algoritmo scelga i bordi a sinistra prima di quelli a destra:
 
-![](images/4.jpg)
+<p align="center">
+  <img width="300" heigth="300" src="images/4.jpg">  
+</p>
 
 1) Visitare il nodo A. Continuare sul bordo sinistro.
 2) Visitare il nodo B. Continuare sul bordo sinistro.
@@ -220,7 +222,9 @@ Gli Alberi di Ricerca Binaria (BST) sono speciali alberi binari in cui la chiave
 
 Per esempio:
 
-![](images/3.png)
+<p align="center">
+  <img width="300" heigth="300" src="images/3.png">  
+</p>
 
 I BST consentono una rapida ricerca (aggiunta e rimozione di elementi) e possono essere utilizzati per implementare array dinamici o tabelle di ricerca che consentono di trovare un elemento tramite la sua chiave (ad esempio, trovare il numero di telefono di una persona con il cognome).
 
